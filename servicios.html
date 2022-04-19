@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BigoSoft Company</title>
+  <link rel="stylesheet" href="Styles/styleServicios.css">
+ <script src="code.js"></script>
+</head>
+
+<body>
+  <!-- Menu navegacion y logo -->
+  <div class="" id="nav">
+    <a href="index.html"><img src="Recursos/BigoSoft_logo.png" alt="" id="logoImg"></a>
+    <nav>
+      <a href="index.html"><p>Inicio</p></a>
+      <a href="quienesSomos.html"><p>¿Quienes somos?</p></a>
+      <a href="productos.html"><p>Productos</p></a>
+      <a href="servicios.html"><p>Servicios</p></a>
+      <a href="contacto.html"><p>Contacto</p></a>
+    </nav>
+  </div>
+
+  <!-- Bienvenida -->
+  <div id="header">
+    <p class="textVerde">Creamos lo que necesites</p>
+    <h1 class="titulito">Descubra que <br> podemos ofrecerte</h1>
+    <h3>Aquí te ofrecemos la ayuda que  <br> estas buscando para ese proyecto <br> revolucionario que tienes en mente</h3>
+  </div>
+
+
+  <!-- Segundo div + tabla aplicaciones -->
+  <div id="tituloSegundoDiv">
+    <p class="textVerde">Conozca nuestra subscripción</p>
+    <p class="titulito">Muchas ideas, muchos planes</p>
+    <h3>Por qué entendemos que cada uno puede tener sus necesidades, disponemos<br> de varios planes para que encientres el que mejor se adapte a tí </h3>
+  </div>
+
+  <table id="Planes">
+    <tr>
+      <td class="Planestd">
+        <div class="tituloPlan">Básico</div>
+        <div class="contenidoPlan">
+          Actualización general <br>
+          Mantenimiento <br>
+          Diseño característica <br>
+          Desarrollo característica <br>
+          Crear / modificar BD <br>
+        </div>
+        <div class="precioPlan">
+        <p>199€/mes</p>
+        </div>
+       </td>
+      <td class="Planestd" id="planIndividual">
+        <div class="tituloPlan">
+          Individual
+          <p id="aclaracionInd">Elige tus servicios</p>
+        </div>
+        <div class="contenidoPlan">
+          <table id="tablaIndividual">
+            <tr>
+              <td>Actualización general</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion" > <img src="Recursos/cerrar.png" alt=" "id="img1" onclick="CambiarPrecio(1)"> </div></td>
+            </tr>
+            <tr>
+              <td>Mantenimiento</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"> <img src="Recursos/cerrar.png" alt=""id="img2"onclick="CambiarPrecio(2)"> </div></td>
+            </tr>
+            <tr>
+              <td>Diseño característica</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"> <img src="Recursos/cerrar.png" alt=""id="img3"onclick="CambiarPrecio(3)"> </div></td>
+            </tr>
+            <tr>
+              <td>Desarrollo característica</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"><img src="Recursos/cerrar.png" alt=""id="img4"onclick="CambiarPrecio(4)">  </div></td>
+            </tr>
+            <tr>
+              <td>Crear / modificar BD</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"> <img src="Recursos/cerrar.png" alt=""id="img5"onclick="CambiarPrecio(5)"> </div></td>
+            </tr>
+            <tr>
+              <td>Desarrollo completo</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"> <img src="Recursos/cerrar.png" alt=""id="img6"onclick="CambiarPrecio(6)"> </div></td>
+            </tr>
+            <tr>
+              <td>Diseño completo</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"> <img src="Recursos/cerrar.png" alt=""id="img7"onclick="CambiarPrecio(7)"> </div></td>
+            </tr>
+            <tr>
+              <td>Asesoramiento</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"> <img src="Recursos/cerrar.png" alt=""id="img8"onclick="CambiarPrecio(8)"> </div></td>
+            </tr>
+            <tr>
+              <td>Testeo + resolución de fallos</td>
+              <td><div class="fondoEleccion">50€  </div></td>
+              <td><div class="fondoEleccion"><img src="Recursos/cerrar.png" alt=""id="img9"onclick="CambiarPrecio(9)"> </div></td>
+            </tr>
+          </table>
+        </div>
+          <div class="precioPlan">
+            <p id="precioPlanIndividual">0€</p>
+          </div>
+      </td>
+      <td class="Planestd"><div class="tituloPlan">Premium</div>
+      <div class="contenidoPlan">
+        Actualización general <br>
+        Mantenimiento <br>
+        Diseño característica <br>
+        Desarrollo característica <br>
+        Crear / modificar BD <br>
+        Desarrollo completo <br>
+        Diseño completo <br>
+        Asesoramiento <br>
+        Testeo + resolución de fallos <br>
+      </div>
+      <div class="precioPlan">
+        <p>399€/mes</p>
+      </div>
+    </td>
+    </tr>
+
+  </table>
+
+  <div id="tituloSegundoDiv">
+    <p class="textVerde">Atrevete a dar el paso</p>
+    <p class="titulito">Conoce más sobre nuestra subscripción</p>
+    <h3>¿Aún no te decides? No te preocupes, te entendemos y por eso ofrecemos<br>nuestros servicios de forma individual y un mes de prueba gratuito <br> para el plan elegido con la compra del primer mes! </h3>
+  </div>
+
+  <div id="primerDiv">
+    <div id="text">
+      <p class="titulito">¿Quieres saber más de nosotros?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="textVerde">Creando utilidad desde 2003</p>
+
+    </div>
+    <a href="quienesSomos.html"><div id="img">
+
+    </div></a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Copyright 2021 Hugo Lázaro</p>
+    <div class="redes">
+      <a href="https://www.twitch.tv/dev3r3nze" target="_blank" rel="nofollow"><img src="Recursos/twitch.png" alt="" width="30px"></a>
+      <a href="https://www.instagram.com/untamed.studio/" target="_blank" rel="nofollow"><img src="Recursos/instagram.png" alt="" width="30px"></a>
+      <a href="https://twitter.com/dev3r3nze" target="_blank" rel="nofollow"><img src="Recursos/twitter.png" alt="" width="30px"></a>
+    </div>
+  </footer>
+
+
+  <!--<div class="decoracionesRotadas">
+    <div class="decoraciones" id="deco1"></div>
+    <div class="decoraciones" id="deco2"></div>
+    <div class="decoraciones" id="deco3"></div>
+    <div class="decoraciones" id="deco4"></div>
+  </div> -->
+
+</body>
+
+</html>
