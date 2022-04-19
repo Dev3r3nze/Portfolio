@@ -114,20 +114,20 @@ table .img img{
 }
 
 table .img {
-  background: url(../Recursos/CapturaDevo.png) no-repeat left;
+  background: url(../Recursos/CapturaDevo.PNG) no-repeat left;
   background-size: cover;
 }
 table #ImgRotadaCrono{
-  background: url(../Recursos/CapturaCrono.png) no-repeat right;
+  background: url(../Recursos/CapturaCrono.PNG) no-repeat right;
   background-size: cover;
 }
 table #ImgRotadaCronoWeb{
-  background: url(../Recursos/CapturaCronoWeb.png) no-repeat right;
+  background: url(../Recursos/CapturaCronoWeb.PNG) no-repeat right;
   background-size: cover;
 }
 
 #imgSpaceReach{
-  background: url(../Recursos/CapturaSpaceReach.png) no-repeat left, url(../Recursos/CapturaSpaceReach2.png) no-repeat center,url(../Recursos/CapturaSpaceReach3.png) no-repeat right;
+  background: url(../Recursos/CapturaSpaceReach.PNG) no-repeat left, url(../Recursos/CapturaSpaceReach2.PNG) no-repeat center,url(../Recursos/CapturaSpaceReach3.PNG) no-repeat right;
 }
 
 .descApp{
