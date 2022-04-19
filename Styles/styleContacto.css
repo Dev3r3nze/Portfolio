@@ -10,7 +10,6 @@
 body {
   background: black;
   max-width: 100%;
-  text-align: center;
   overflow-x: hidden;
 }
 
@@ -282,6 +281,9 @@ label p{
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 0px;
+}
+.mensajeForm{
+  text-align: center;
 }
 
 #formTerminar input:hover, .mensajeForm input[type=submit]:hover{
