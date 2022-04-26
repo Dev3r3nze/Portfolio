@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js">
+
+  </script>
+</head>
+
+<body>
+  <div>
+    <input type="range" name="" value="" class="progreso" disabled id="progreso" min="0" step="0.1">
+  </div>
+  <div id="tiempo">
+    <p id="tiempoText">00:00</p>
+    <p id="tutoText">Espacio para comenzar y pausar</p>
+  </div>
+  <div class="desplegables">
+
+    <div class="intervalos">
+      <div class="titulo" id="tituloInter" onclick="CambiarInter()">
+        <div class="tituloText">
+          <p>Intervalos</p>
+        </div>
+        <div class="botonCambio" id="btn0" onclick="CambiarColor(0)">
+
+        </div>
+      </div>
+
+      <div class="botones" id="btnsInter">
+        <div class="btnMas5" onclick="AñadirTiempo(5)">
+          <p>+5</p>
+        </div>
+        <div class="btnMenos5" onclick="AñadirTiempo(-5)">
+          <p>-5</p>
+        </div>
+        <div class="rangoSegundosMinutos">
+          <p id="s">S</p>
+          <p id="m">M</p>
+          <input type="range" name="" value="0" min="0" max="1" step="1" id="rango" onchange="CambiarMinutos()">
+        </div>
+        <div class="tiempoCustom">
+          <input type="number" id="numberInput" value="" placeholder="Escribe el intervalo y se mostrará" min="0" onchange="AñadirPredefinidos(value)">
+        </div>
+      </div>
+    </div>
+
+    <div class="apariencia">
+      <div class="titulo" id="tituloApar" onclick="CambiarApar()">
+        <div class="tituloText">
+          <p>Apariencia</p>
+        </div>
+        <div class="botonCambio" id="ReiniciarColoresBtn" onclick="ReiniciarColores()">
+          <p>Reiniciar</p>
+        </div>
+      </div>
+
+      <div class="botones" id="btnsApar">
+        <div class="color">
+          <form class="" action="index.html" method="post">
+            <label for="">Fondo:</label>
+            <input type="color" name="" value="#353535" onchange="CambiarColoreFondo(value)">
+          </form>
+        </div>
+        <div class="color">
+          <form class="" action="index.html" method="post">
+            <label for="">Textos:</label>
+            <input type="color" name="" value="#EBEBEB" onchange="CambiarColoreTextos(value)">
+          </form>
+        </div>
+        <div class="color">
+          <form class="" action="index.html" method="post">
+            <label for="">Fondo tarjetas:</label>
+            <input type="color" name="" value="#D9D9D9" onchange="CambiarColoreFondoTarjetas(value)">
+          </form>
+        </div>
+        <div class="color">
+          <form class="" action="index.html" method="post">
+            <label for="">Tarjetas:</label>
+            <input type="color" name="" value="#3C6E71" onchange="CambiarColoresTarjetas(value)">
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="predefinidos">
+      <div class="titulo" id="tituloPre" onclick="CambiarPre()">
+        <div class="tituloText">
+          <p>Predefinidos</p>
+        </div>
+        <div class="botonCambio" id="btn1" onclick="CambiarColor(1)">
+
+        </div>
+      </div>
+
+      <div class="botones" id="btnsPre">
+        <div class="btnTiempo" onclick="AñadirPredefinidos(30)">
+          <p>30</p>
+        </div>
+        <div class="btnTiempo" onclick="AñadirPredefinidos(40)">
+          <p>40</p>
+        </div>
+        <div class="btnTiempo" onclick="AñadirPredefinidos(60)">
+          <p>60</p>
+        </div>
+        <div class="btnTiempo" onclick="AñadirPredefinidos(90)">
+          <p>90</p>
+        </div>
+        <div class="btnTiempo" onclick="AñadirPredefinidos(120)">
+          <p>120</p>
+        </div>
+        <div class="btnTiempo" onclick="AñadirPredefinidos(150)">
+          <p>150</p>
+        </div>
+        <div class="btnTiempo" onclick="AñadirPredefinidos(300)">
+          <p>300</p>
+        </div>
+        <div class="btnTiempo" onclick="AñadirPredefinidos(420)">
+          <p>420</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
