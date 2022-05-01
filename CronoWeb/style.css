@@ -52,7 +52,8 @@ label{
 }
 #tutoText{
   opacity: 0.6;
-  margin-top: -23px;
+  margin-top: -403px;
+  margin-bottom: 10px;
 }
 /*Desplegables en general*/
 .desplegables{
@@ -107,7 +108,7 @@ label{
     box-shadow: 1px 1px 6px #252525;
     z-index: 2;
   }
-  .botonCambio: hover{
+  .botonCambio:hover{
     cursor: pointer;
   }
 
