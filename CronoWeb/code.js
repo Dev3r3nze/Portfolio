@@ -1,7 +1,7 @@
 var s = 0,
   m = 0,
   h = 0;
-  
+
 var minsActivados = false;
 var pararTiempo = true;
 
@@ -249,6 +249,8 @@ function AñadirTiempo(t) {
 
 function CambiarColor(n) {
   if (n == 0) {
+    CambiarInter();
+
     if (cambiarVerde) {
       ActualizarContador("rojo");
       document.getElementById("btn0").style.backgroundColor = "#FF3838";
@@ -262,6 +264,8 @@ function CambiarColor(n) {
     }
   }
   if (n == 1) {
+    CambiarPre()
+
     if (cambiarVerde) {
       ActualizarContador("rojo");
       document.getElementById("btn0").style.backgroundColor = "#FF3838";
