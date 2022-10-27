@@ -1,0 +1,341 @@
+/*Universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat{
+    margin-top: 60vh;
+    width: 80%;
+}
+
+/*Menu lateral*/
+#menuLateralOpened,#menuLateralClosed{
+    height: 100%;
+    position: fixed;
+    background-color: rgba(100,100,219,0.56);
+    width: 40%;
+    display: none;
+    text-align: center;
+    left: 0px;
+
+}
+#menuLateralClosed{
+    width: 5%;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#menuLateralClosed img{
+    width: 100px;
+    height: 100px;
+    translate: 5vh -1vh;
+    box-shadow: 3px 5px 6px rgba(0,0,0,0.16);
+    border-radius: 50px;
+}
+
+#menuLateralOpened .optMenuLateral{
+    width: 100%;
+    background-color: #242424;
+    color: white;
+    margin: 5vh 0vh 5vh 0vh;
+    padding: 3vh 0vh 3vh 5vh;
+    text-align: left;
+    font-size: 40px;
+}
+
+#menuLateralOpened #logoCerrarMenuLateral img{
+    width: 300px;
+    box-shadow: 3px 5px 6px rgba(0,0,0,0.16);
+    border-radius: 500px;
+}
+
+#menuLateralOpened #redesMenuLateral{
+    background-color: #242424;
+    margin-top: 5vh;
+    text-align: right;
+    padding: 2vh;
+    width: 20%;
+    
+}
+#menuLateralOpened #redesMenuLateral img{
+    width: 30px;
+}
+
+
+/*Header*/
+.header {
+    width: 100%;
+    text-align: end;
+}
+
+.header #headerText{
+    font-size: 200px;
+    color: white;
+    margin: 10vh;
+}
+
+
+/*Categoría quien soy*/
+
+#quienCat .titleCat{
+    font-size: 100px;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+#quienCat .contentCat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quienCat .contentCat #quienCatImg img{
+    border: solid 1px rgba(100,100,219,0.56);
+    border-radius: 500px;
+    margin-bottom: 5vh;
+
+}
+
+#quienCat .contentCat #descQuien{
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 16px;
+
+}
+
+#quienCat .contentCat #btnsQuien .optQuien{
+    float: left;
+    margin: 1vh;
+    color: #9B9B9B;
+    font-size: 25px;
+}
+
+#quienCat .contentCat #btnsQuien #optQuienEspecial{
+    float: left;
+    margin: 0vh 2vh 0vh 2vh;
+    padding: 0.7vh 3vh 1vh;
+    background: #48488B;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+/*Categoría skills*/
+#skillsCat{
+    margin-top: 20vh;
+}
+
+.titleCat{
+    font-size: 100px;
+    color: white;
+    margin-bottom: 5vh;
+}
+.skillContent{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 16%);
+    padding: 4vh;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+
+}
+
+.skillContent .colNames{
+    width: 60%;
+}
+
+.skillContent .colNames .titleSkillsNames{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 4vh;
+}
+
+.skillContent .skillsNamesBtns{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillContent .skillsNamesBtns .skillName{
+    background: transparent;
+    border: solid 0.5px;
+    border-color: #48488B;
+    border-radius: 20px;
+    width: 50%;
+    height: 3vh;
+    margin-top: 1vh;
+    color: white;
+    text-align: left;
+    padding-left: 2vh;
+}
+
+.skillContent .skillsNamesBtns #skillSelected{
+    background-color: #48488B;
+}
+
+.skillContent .colContent .skillResume{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 2vh;
+    width: 76%;
+    padding-top: 2vh;
+}
+
+.skillContent .colContent .skillResume .skillDesc{
+    margin-left: 2vh;
+}
+
+.skillContent .colContent .skillResume .colSkill1{
+    width: 30%;
+    text-align: center;
+}
+.skillContent .colContent .skillResume .colSkill2{
+    font-size: 16px;
+}
+
+.skillContent .colContent .skillResume #imageSkill{
+    width: 13vh
+}
+
+/* categoría proyectos*/
+#proyectosCat{
+    margin-top: 20vh;
+}
+
+.proyectsRama{
+    width: 80%;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 16%);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+}
+
+.titleProyectsRama{
+    color: white;
+    font-size: 70px;
+}
+
+.proyectsRama .contentAllProyects{
+    display: flex;
+    flex-direction: column;
+}
+
+.proyectsRama .contentAllProyects .barraNames{
+    background: #48488B;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    height: 7vh;
+    align-items: center;
+}
+
+.proyectsRama .contentAllProyects .barraNames .titleProyecto{
+    float: left;
+    font-size: 30px;
+    color: white;
+    width: 25%;
+    text-align: center;
+}
+
+.proyectsRama .contentAllProyects .barraNames #proyectSelected, .titleProyecto:hover{
+    background-color: #3D3D77;
+    border-radius: 20px 20px 0px 0px;
+    height: 5vh;
+    padding-top: 2vh;
+}
+
+.proyectsRama .contentAllProyects .contentProyect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.proyectsRama .contentAllProyects .contentProyect .colDesc{
+    width: 30%;
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.proyectsRama .contentAllProyects .contentProyect .colDesc p{
+    color: white;
+    font-size: 16px;
+    width: 50%;
+}
+
+.proyectsRama .contentAllProyects .contentProyect .colDesc button{
+    width: 50%;
+    padding: 1vh 3vh 1vh;
+    background: rgba(100,100,219,0.56);
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+   
+}
+
+.proyectsRama .contentAllProyects .contentProyect .colImages{
+    width: 70%;
+    padding-top: 3vh;
+}
+
+.proyectsRama .contentAllProyects .contentProyect .colImages #imgProyecto2{
+    translate: 0px -4vh;
+}
+
+.proyectsRama .contentAllProyects .contentProyect .colImages .techProyecto{
+    width: 6vh;
+    translate: 0px -5vh;
+}
+
+/*Footer*/
+.footer{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3vh 0vh;
+}
+
+.footer .colFooter p{
+    color: white;
+    font-size: 20px;
+}
+
+.footer .colFooter .redesImg{
+    width: 5vh;
+}
+
+
+#quienCat .contentCat #btnsQuien #optQuienEspecial:hover, .skillContent .colNames .skillName:hover, .titleProyecto:hover, .proyectsRama .contentAllProyects .contentProyect .colDesc button:hover{
+    background-color: #2d2d57;
+    cursor: pointer;
+}
+
+#menuLateralClosed:hover, #logoCerrarMenuLateral img:hover{
+    cursor: pointer;
+}
+
+#menuLateralOpened .optMenuLateral:hover{
+    background-color: #111111;
+    cursor: pointer;
+}

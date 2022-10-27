@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Recursos/favicon/favicon.ico" type="image/x-icon">
+    <script src="code.js"></script>
+    <title>dev3r3nze's portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <div id="headerText">hola :)</div>
+    </div>
+    <div id="menuLateralClosed" onclick="ToggleMenu()">
+        <img src="recursos/iso.png" alt="">
+    </div>
+    <div id="menuLateralOpened">
+        <div class="optMenuLateral">¿quién soy?</div>
+        <div class="optMenuLateral">¿skills?</div>
+        <div class="optMenuLateral">¿proyectos?</div>
+        <div id="logoCerrarMenuLateral"><img src="recursos/iso.png" alt="" onclick="ToggleMenu()"></div>
+        <div id="redesMenuLateral"> 
+            <img src="Recursos/redes/linktree.png" alt="">
+            <img src="Recursos/redes/discord.png" alt="">
+            <img src="Recursos/redes/twitch.png" alt="">
+        </div>
+    </div>
+    <div class="cat" id="quienCat">
+        <div class="titleCat">¿quién soy?</div>
+        <div class="contentCat">
+            <div id="quienCatImg"><img src="recursos/iso.png" alt=""></div>
+            <div id="descQuien"><p>También puedes llamarme Hugo, soy un chico español de 19 años que lleva ya unos años en creando mis propios proyectos, como webs y videojuegos. Ahora quiero compartir lo que he hecho y lo que haré, no dudes en ver que puedo ofrecerte :)</p></div>
+            <div id="btnsQuien">
+                <div class="optQuien"><p>formación</p></div>
+                <div id="optQuienEspecial"><p>ver cv</p></div>
+                <div class="optQuien"><p></p>certificados</div>
+            </div>
+        </div>
+    </div>
+    <div class="cat" id="skillsCat">
+        <div class="titleCat">¿skills?</div>
+        <div class="skillContent">
+            <div class="colNames">
+                <p class="titleSkillsNames">web</p>
+                <div class="skillsNamesBtns">
+                    <button class="skillName" id="skillSelected">HTML5</button>
+                    <button class="skillName">CSS</button>
+                    <button class="skillName">JavaScript</button>
+                    <button class="skillName">React</button>
+                    <button class="skillName">MySQL</button>
+                </div>
+            </div>
+            <div class="colContent">
+                <div class="skillResume">
+                    <div class="colSkill1">
+                        <img src="Recursos/techs/html-5.png" alt="" id="imageSkill"><br>
+                        <img src="Recursos/Rating.png" alt="" id="imageRating1">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating2">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating3">
+                    </div>
+                    <div class="colSkill2">
+                        <p id="htmlSkillDesc" class="skillDesc"> Probablemente, de mis puntos más fuertes. Con más de 2 años de experiencia, tanto para webs, apps o juegos de navegador. </p>
+                    </div>
+                </div>
+                <img src="Recursos/htmlSkillContent.png" alt="" id="skillContentImage">
+            </div>
+        </div>
+        <div class="skillContent">
+            <div class="colNames">
+                <p class="titleSkillsNames">design</p>
+                <div class="skillsNamesBtns">
+                    <button class="skillName" id="skillSelected">Adobe XD</button>
+                    <button class="skillName">Adobe Illustrator</button>
+                    <button class="skillName">Canva</button>
+                    <button class="skillName">Wordpress</button>
+                </div>
+            </div>
+            <div class="colContent">
+                <div class="skillResume">
+                    <div class="colSkill1">
+                        <img src="Recursos/techs/xd.png" alt="" id="imageSkill"><br>
+                        <img src="Recursos/Rating.png" alt="" id="imageRating1">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating2">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating3">
+                    </div>
+                    <div class="colSkill2">
+                        <p id="xdSkillDesc" class="skillDesc"> Probablemente, de mis puntos más fuertes. Con más de 2 años de experiencia, tanto para webs, apps o juegos de navegador. </p>
+                    </div>
+                </div>
+                <img src="Recursos/xdSkillContent.png" alt="" id="skillContentImage">
+            </div>
+        </div>
+        <div class="skillContent">
+            <div class="colNames">
+                <p class="titleSkillsNames">games</p>
+                <div class="skillsNamesBtns">
+                    <button class="skillName" id="skillSelected">Unity</button>
+                    <button class="skillName">C#</button>
+                    <button class="skillName">Animación 2D</button>
+                    <button class="skillName">Level Design</button>
+                </div>
+            </div>
+            <div class="colContent">
+                <div class="skillResume">
+                    <div class="colSkill1">
+                        <img src="Recursos/techs/unity.png" alt="" id="imageSkill"><br>
+                        <img src="Recursos/Rating.png" alt="" id="imageRating1">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating2">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating3">
+                    </div>
+                    <div class="colSkill2">
+                        <p id="xdSkillDesc" class="skillDesc"> Lo que mejor conozco y en lo que mejor soy. Con más de 3 años de experiencia y 6 proyectos terminados, se trata de mi sector preferido del desarrollo. </p>
+                    </div>
+                </div>
+                <img src="Recursos/unitySkillContent.png" alt="" id="skillContentImage">
+            </div>
+        </div>
+    </div>
+
+    <div class="cat" id="proyectosCat">
+        <div class="titleCat">proyectos?</div>
+        <p class="titleProyectsRama">webs</p>
+        <div class="proyectsRama">
+            <div class="contentAllProyects">
+                <div class="barraNames">
+                    <div class="titleProyecto" id="proyectSelected">BigoSoft</div>
+                    <div class="titleProyecto">Calculadora</div>
+                    <div class="titleProyecto">Frontend Mentor</div>
+                    <div class="titleProyecto">Extras</div>
+                </div>
+                <div class="contentProyect">
+                    <div class="colDesc">
+                        <p class="descProyecto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia interdum ex non sagittis. Nam molestie laoreet ultricies. Phasellus suscipit, </p>
+                        <button class="probarProyectoBtn">Probar</button>
+                    </div>
+                    <div class="colImages">
+                        <img src="Recursos/bigosoft/Bigosoft.png" alt="" class="imgProyecto" id="imgProyecto1">
+                        <img src="Recursos/techs/html-5.png" alt="" class="techProyecto">
+                        <img src="Recursos/techs/css-3.png" alt="" class="techProyecto">
+                        <img src="Recursos/techs/js.png" alt="" class="techProyecto"> <br>
+                        <img src="Recursos/techs/xd.png" alt="" class="techProyecto">
+                        <img src="Recursos/techs/logo-react-icon.png" alt="" class="techProyecto">
+                        <img src="Recursos/techs/illustrator.png" alt="" class="techProyecto">
+                        <img src="Recursos/bigosoft/Bigosoft2.png" alt="" class="imgProyecto" id="imgProyecto2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="titleProyectsRama">design</p>
+        <div class="proyectsRama">
+            <div class="contentAllProyects">
+                <div class="barraNames">
+                    <div class="titleProyecto" id="proyectSelected">Logos</div>
+                    <div class="titleProyecto">Overlays</div>
+                    <div class="titleProyecto">Webs</div>
+                    <div class="titleProyecto">Marcas</div>
+                </div>
+                <div class="contentProyect">
+                    <div class="colDesc">
+                        <p class="descProyecto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia interdum ex non sagittis. Nam molestie laoreet ultricies. Phasellus suscipit, </p>
+                        <button class="probarProyectoBtn">Probar</button>
+                    </div>
+                    <div class="colImages">
+                        <img src="Recursos/logos/Pack_logos_1.png" alt="" class="imgProyecto" id="imgProyecto1">
+                        <img src="Recursos/logos/Shoko.png" alt="" class="techProyecto">
+                        <img src="Recursos/logos/mad.png" alt="" class="techProyecto">
+                        <img src="Recursos/logos/gym.png" alt="" class="techProyecto"> <br>
+                        <img src="Recursos/techs/canva.png" alt="" class="techProyecto">
+                        <img src="Recursos/techs/illustrator.png" alt="" class="techProyecto">
+                        <img src="Recursos/logos/Pack_logos_2.png" alt="" class="imgProyecto" id="imgProyecto2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="titleProyectsRama">games</p>
+        <div class="proyectsRama">
+            <div class="contentAllProyects">
+                <div class="barraNames">
+                    <div class="titleProyecto" id="proyectSelected">Moonthrower</div>
+                    <div class="titleProyecto">Devo</div>
+                    <div class="titleProyecto">Prototipos</div>
+                    <div class="titleProyecto">JAMs</div>
+                </div>
+                <div class="contentProyect">
+                    <div class="colDesc">
+                        <p class="descProyecto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia interdum ex non sagittis. Nam molestie laoreet ultricies. Phasellus suscipit, </p>
+                        <button class="probarProyectoBtn">Probar</button>
+                    </div>
+                    <div class="colImages">
+                        <img src="Recursos/moonthrower/JuegoDestacable_1.PNG" alt="" class="imgProyecto" id="imgProyecto1">
+                        <img src="Recursos/techs/unity.png" alt="" class="techProyecto">
+                        <img src="Recursos/techs/c-sharp.png" alt="" class="techProyecto">
+                        <img src="Recursos/techs/aseprite.png" alt="" class="techProyecto"> <br>
+                        
+                        <img src="Recursos/moonthrower/JuegoDestacable_2.PNG" alt="" class="imgProyecto" id="imgProyecto2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="colFooter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="87.142" height="98.932" viewBox="0 0 87.142 98.932">
+                <g id="Group_40" data-name="Group 40" transform="translate(1317.071 743.432) rotate(180)">
+                  <line id="Line_1" data-name="Line 1" y2="83.543" transform="translate(1273.5 649.5)" fill="none" stroke="#58fcec" stroke-linecap="round" stroke-width="10"/>
+                  <line id="Line_2" data-name="Line 2" y1="36.5" x2="36.5" transform="translate(1273.5 699.861)" fill="none" stroke="#58fcec" stroke-linecap="round" stroke-width="10"/>
+                  <line id="Line_3" data-name="Line 3" y1="36.5" x2="36.5" transform="translate(1273.5 699.861) rotate(90)" fill="none" stroke="#58fcec" stroke-linecap="round" stroke-width="10"/>
+                </g>
+              </svg>
+              
+        </div>
+        <div class="colFooter">
+            <p>created by: dev3r3nze</p>
+        </div>
+        <div class="colFooter">
+            <div class="redes">
+                <img src="Recursos/redes/linktree.png" alt="" class="redesImg">
+                <img src="Recursos/redes/discord.png" alt="" class="redesImg">
+                <img src="Recursos/redes/itch.io.png" alt="" class="redesImg">
+                <img src="Recursos/redes/twitter.png" alt="" class="redesImg">
+                <img src="Recursos/redes/twitch.png" alt="" class="redesImg">
+            </div>
+        </div>
+       
+    </div>
+
+    </div>
+</body> 
+</html>
