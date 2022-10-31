@@ -244,7 +244,7 @@ body{
     align-items: center;
 }
 
-.proyectsRama .contentAllProyects .barraNames .titleProyecto{
+.proyectsRama .contentAllProyects .barraNames .titleProyectoWeb,.titleProyectoDesign,.titleProyectoGames{
     float: left;
     font-size: 30px;
     color: white;
@@ -252,7 +252,7 @@ body{
     text-align: center;
 }
 
-.proyectsRama .contentAllProyects .barraNames #proyectSelected, .titleProyecto:hover{
+.proyectsRama .contentAllProyects .barraNames #proyectSelected, .titleProyectoWeb:hover, .titleProyectoDesign:hover, .titleProyectoGames:hover{
     background-color: #3D3D77;
     border-radius: 20px 20px 0px 0px;
     height: 5vh;
@@ -283,7 +283,6 @@ body{
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colDesc button{
-    width: 50%;
     padding: 1vh 3vh 1vh;
     background: rgba(100,100,219,0.56);
     border-radius: 20px;
@@ -298,13 +297,14 @@ body{
     padding-top: 3vh;
 }
 
-.proyectsRama .contentAllProyects .contentProyect .colImages #imgProyecto2{
+.proyectsRama .contentAllProyects .contentProyect .colImages #imgProyecto2Web, #imgProyecto2Design, #imgProyecto2Games{
     translate: 0px -4vh;
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colImages .techProyecto{
     width: 6vh;
     translate: 0px -5vh;
+    margin: 0px;
 }
 
 /*Footer*/

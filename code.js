@@ -1,5 +1,5 @@
 function ToggleMenu(){
-    if(document.getElementById("menuLateralClosed").style.display == "flex" || document.getElementById("menuLateralClosed").style.display == ""){
+    if(document.getElementById("menuLateralClosed").style.display == "flex" || document.getElementById("menuLateralClosed").style.display == "techProyectoWeb1"){
         document.getElementById("menuLateralClosed").style.display = "none"
         document.getElementById("menuLateralOpened").style.display = "block"
     }else{
@@ -176,4 +176,269 @@ function CambiarGames(num){
         
     }
     document.getElementsByClassName("skillNameGames")[num].id = "skillSelected"
+}
+
+const proyectos = []
+
+const BigoSoft = {
+    desc: "Proyecto del primer año del grado de Desarrollo de Aplicaciones Web, con mayor enfoque en el diseño que en la funcionalidad, se trata de una página para una empresa ficticia con diversas categorías.",
+    imagen1: "Recursos/bigosoft/bigosoft1.png",
+    imagen2: "Recursos/bigosoft/bigosoft2.png",
+    enlace1: "BigoSoft/index.html",
+    enlace1Text: "Probar",
+    techs: 5
+}
+
+const Calculadora = {
+    desc: "Proyecto que realizé para aprender a usar los contenedores flex de CSS principalmente, y reforzar mis conocimientos. Se trata de una calculadora capaz de realizar operaciones matemáticas simples.",
+    imagen1: "Recursos/calculadora/calculadora1.png",
+    imagen2: "Recursos/calculadora/calculadora2.png",
+    enlace1: "Calculadora/index.html",
+    enlace1Text: "Probar",
+    techs: 4
+}
+
+const FrontendMentor = {
+    desc: "Proyectos actualmemte terminados sacados de FrontendMentor, con ellos refuerzo y expando mis conocimientos tanto de CSS como JavaScript, puedes también buscar mi perfil para ver mi progreso a través de estos.",
+    imagen1: "Recursos/frontendmentor/frontendmentor1.png",
+    imagen2: "Recursos/frontendmentor/frontendmentor2.png",
+    enlace1: "https://dev3r3nze.github.io/FrontendMentor/",
+    enlace1Text: "Probar",
+    techs: 3
+}
+
+const Extras = {
+    desc: "Otros proyectos que he ido realizando se tratan de una web que te permite saber que prendas tienes en tu armario y organizarlos (descartada), y una web capaz de ordenar alfabéticamente una lista.",
+    imagen1: "Recursos/extras/extras1.png",
+    imagen2: "Recursos/extras/extras2.png",
+    enlace1: "https://github.com/Dev3r3nze",
+    enlace1Text: "Probar",
+    techs: 3
+}
+
+const Logos = {
+    desc: "Se trata de los logos que he ido creando a lo largo de estos meses que llevo con el diseño gráfico, se inlcuyen distintos estilos, colores y formas aunque el area en el que más cómodo me siento es el minimalismo.",
+    imagen1: "Recursos/logos/logos1.png",
+    imagen2: "Recursos/logos/logos2.png",
+    techs: 5
+}
+
+const Overlays = {
+    desc: "Estas son las overlays más destacadas que he creado, la de arriba es completamente personalizada para 'Anam1603'. La otra forma parte de un pack de 6 overlays que podían comprarse (actualmente disponibles).",
+    imagen1: "Recursos/overlays/overlays1.png",
+    imagen2: "Recursos/overlays/overlays2.png",
+    techs: 2
+}
+
+const Webs = {
+    desc: "Las webs que diseñé pero no desarrollé, una simula ser un restaurante de comida japonesa mientras que la otra se trata de una web que permite establecer un timer tipo pomodoro con intervalos personalizable.",
+    imagen1: "Recursos/webs/webs1.png",
+    imagen2: "Recursos/webs/webs2.png",
+    techs: 1
+}
+
+const Marcas = {
+    desc: "Diseño de logotipos con variantes incluidas, con colores y tipografía incluidos, se trata de dos márcas inventadas, simulan ser una cafetería y un podcast sobre el desarrollo web. Ambas creadas con Adobe Illustrator.",
+    imagen1: "Recursos/marcas/marcas1.png",
+    imagen2: "Recursos/marcas/marcas2.png",
+    techs: 1
+}
+
+const Moonthrower = {
+    desc: "Se trata de uno de mis últimos juegos, me centré principalmente en el aspecto visual y me siento satisfecho con el resultdao, el juego consiste en lanzar la Luna fuera de la orbita de la Tierra para llegar lo más lejos posible.",
+    imagen1: "Recursos/moonthrower/moonthrower1.png",
+    imagen2: "Recursos/moonthrower/moonthrower2.png",
+    enlace1: "https://dev3r3nze.itch.io/moon-thrower",
+    enlace1Text: "Jugar",
+    techs: 3
+}
+
+const Devo = {
+    desc: "El primer juego completamente desarrollado con HTML, CSS y JavaScript que relizé. Se trata de un clicker ambientado en el mundo crypto, deberás clickar para minar y poder comprar mejoras y recursos que minen por ti.",
+    imagen1: "Recursos/devo/devo1.png",
+    imagen2: "Recursos/devo/devo2.png",
+    enlace1: "https://dev3r3nze.itch.io/devo-clicker-game",
+    enlace1Text: "Jugar",
+    techs: 3
+}
+
+const Prototipos = {
+    desc: "Aqui hay un par de prototipos que no llegaron a ser terminados, uno se trata de un roguelike en el que deberás sobrevivir el mayor tiempo posible, y el otro manejas la consola de una estación espacial que debe lanzar su cohete al espacio.",
+    imagen1: "Recursos/prototipos/prototipos1.png",
+    imagen2: "Recursos/prototipos/prototipos2.png",
+    enlace1: "https://dev3r3nze.itch.io/",
+    enlace1Text: "Jugar",
+    techs: 3
+}
+
+const Jams = {
+    desc: "Aqui recopilo los proyectos creados para JAMs, el primero debes no perderte por el laverinto mientras luchas contra tu sueño, y en el otro debes coger tu pico y tu espada y minar minerales mientras te enfrentas a enemigos.",
+    imagen1: "Recursos/jams/jams1.png",
+    imagen2: "Recursos/jams/jams2.png",
+    enlace1: "https://dev3r3nze.itch.io/",
+    enlace1Text: "Jugar",
+    techs: 3
+}
+
+proyectos.push(BigoSoft,Calculadora, FrontendMentor, Extras,Logos,Overlays,Webs,Marcas, Moonthrower, Devo, Prototipos, Jams)
+
+function CambiarProyectosWeb(num){
+    let numTechs = proyectos[num].techs
+    
+    document.getElementById("descProyectoWeb").innerHTML = proyectos[num].desc
+    document.getElementById("imgProyecto1Web").src = proyectos[num].imagen1
+    document.getElementById("imgProyecto2Web").src = proyectos[num].imagen2
+
+    switch (numTechs){
+        case 1:
+            document.getElementById("techProyectoWeb1").style.display = "initial"
+            document.getElementById("techProyectoWeb2").style.display = "none"
+            document.getElementById("techProyectoWeb3").style.display = "none"
+            document.getElementById("techProyectoWeb4").style.display = "none"
+            document.getElementById("techProyectoWeb5").style.display = "none"
+            document.getElementById("techProyectoWeb6").style.display = "none"
+            break
+        case 2:
+            document.getElementById("techProyectoWeb1").style.display = "initial"
+            document.getElementById("techProyectoWeb2").style.display = "initial"
+            document.getElementById("techProyectoWeb3").style.display = "none"
+            document.getElementById("techProyectoWeb4").style.display = "none"
+            document.getElementById("techProyectoWeb5").style.display = "none"
+            document.getElementById("techProyectoWeb6").style.display = "none"
+            break
+        case 3:
+            document.getElementById("techProyectoWeb1").style.display = "initial"
+            document.getElementById("techProyectoWeb2").style.display = "initial"
+            document.getElementById("techProyectoWeb3").style.display = "initial"
+            document.getElementById("techProyectoWeb4").style.display = "none"
+            document.getElementById("techProyectoWeb5").style.display = "none"
+            document.getElementById("techProyectoWeb6").style.display = "none"
+            break
+        case 4:
+            document.getElementById("techProyectoWeb1").style.display = "initial"
+            document.getElementById("techProyectoWeb2").style.display = "initial"
+            document.getElementById("techProyectoWeb3").style.display = "initial"
+            document.getElementById("techProyectoWeb4").style.display = "initial"
+            document.getElementById("techProyectoWeb5").style.display = "none"
+            document.getElementById("techProyectoWeb6").style.display = "none"
+            
+            break
+        case 5:
+            document.getElementById("techProyectoWeb1").style.display = "initial"
+            document.getElementById("techProyectoWeb2").style.display = "initial"
+            document.getElementById("techProyectoWeb3").style.display = "initial"
+            document.getElementById("techProyectoWeb4").style.display = "initial"
+            document.getElementById("techProyectoWeb5").style.display = "initial"
+            document.getElementById("techProyectoWeb6").style.display = "none"
+            
+
+            break
+        case 6:
+            document.getElementById("techProyectoWeb1").style.display = "initial"
+            document.getElementById("techProyectoWeb2").style.display = "initial"
+            document.getElementById("techProyectoWeb3").style.display = "initial"
+            document.getElementById("techProyectoWeb4").style.display = "initial"
+            document.getElementById("techProyectoWeb5").style.display = "initial"
+            document.getElementById("techProyectoWeb6").style.display = "initial"
+            break
+    }
+
+    document.getElementById("BtnWeb").innerHTML = proyectos[num].enlace1Text;
+    document.getElementById("BtnWeb").parentElement.href = proyectos[num].enlace1;
+    for(var i = 0; i < document.getElementsByClassName("titleProyectoWeb").length; i++){
+        document.getElementsByClassName("titleProyectoWeb")[i].id = null
+        
+    }
+    document.getElementsByClassName("titleProyectoWeb")[num].id = "proyectSelected"
+}
+
+function CambiarProyectosDesign(num){
+    let numTechs = proyectos[num].techs
+    document.getElementById("descProyectoDesign").innerHTML = proyectos[num].desc
+    document.getElementById("imgProyecto1Design").src = proyectos[num].imagen1
+    document.getElementById("imgProyecto2Design").src = proyectos[num].imagen2
+
+    switch (numTechs){
+        case 1:
+            document.getElementById("techProyectoDesign1").style.display = "initial"
+            document.getElementById("techProyectoDesign2").style.display = "none"
+            document.getElementById("techProyectoDesign3").style.display = "none"
+            document.getElementById("techProyectoDesign4").style.display = "none"
+            document.getElementById("techProyectoDesign5").style.display = "none"
+            
+            break
+        case 2:
+            document.getElementById("techProyectoDesign1").style.display = "initial"
+            document.getElementById("techProyectoDesign2").style.display = "initial"
+            document.getElementById("techProyectoDesign3").style.display = "none"
+            document.getElementById("techProyectoDesign4").style.display = "none"
+            document.getElementById("techProyectoDesign5").style.display = "none"
+           
+            break
+        case 3:
+            document.getElementById("techProyectoDesign1").style.display = "initial"
+            document.getElementById("techProyectoDesign2").style.display = "initial"
+            document.getElementById("techProyectoDesign3").style.display = "initial"
+            document.getElementById("techProyectoDesign4").style.display = "none"
+            document.getElementById("techProyectoDesign5").style.display = "none"
+            
+            break
+        case 4:
+            document.getElementById("techProyectoDesign1").style.display = "initial"
+            document.getElementById("techProyectoDesign2").style.display = "initial"
+            document.getElementById("techProyectoDesign3").style.display = "initial"
+            document.getElementById("techProyectoDesign4").style.display = "initial"
+            document.getElementById("techProyectoDesign5").style.display = "none"
+           
+            
+            break
+        case 5:
+            document.getElementById("techProyectoDesign1").style.display = "initial"
+            document.getElementById("techProyectoDesign2").style.display = "initial"
+            document.getElementById("techProyectoDesign3").style.display = "initial"
+            document.getElementById("techProyectoDesign4").style.display = "initial"
+            document.getElementById("techProyectoDesign5").style.display = "initial"
+            
+       
+    }
+    for(var i = 0; i < document.getElementsByClassName("titleProyectoDesign").length; i++){
+        document.getElementsByClassName("titleProyectoDesign")[i].id = null
+    }
+    document.getElementsByClassName("titleProyectoDesign")[num-4].id = "proyectSelected"
+    
+}
+
+function CambiarProyectosGames(num){
+    let numTechs = proyectos[num].techs
+    document.getElementById("descProyectoGames").innerHTML = proyectos[num].desc
+    document.getElementById("imgProyecto1Games").src = proyectos[num].imagen1
+    document.getElementById("imgProyecto2Games").src = proyectos[num].imagen2
+
+    switch (numTechs){
+        case 1:
+            document.getElementById("techProyectoGames1").style.display = "initial"
+            document.getElementById("techProyectoGames2").style.display = "none"
+            document.getElementById("techProyectoGames3").style.display = "none"
+            break
+        case 2:
+            document.getElementById("techProyectoGames1").style.display = "initial"
+            document.getElementById("techProyectoGames2").style.display = "initial"
+            document.getElementById("techProyectoGames3").style.display = "none"
+            break
+        case 3:
+            document.getElementById("techProyectoGames1").style.display = "initial"
+            document.getElementById("techProyectoGames2").style.display = "initial"
+            document.getElementById("techProyectoGames3").style.display = "initial"
+            break
+        
+    }
+
+    document.getElementById("BtnGames").innerHTML = proyectos[num].enlace1Text;
+    document.getElementById("BtnGames").parentElement.href = proyectos[num].enlace1;
+    for(var i = 0; i < document.getElementsByClassName("titleProyectoGames").length; i++){
+        document.getElementsByClassName("titleProyectoGames")[i].id = null
+        
+    }
+    document.getElementsByClassName("titleProyectoGames")[num-8].id = "proyectSelected"
+
 }
