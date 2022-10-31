@@ -199,7 +199,7 @@ const Calculadora = {
 }
 
 const FrontendMentor = {
-    desc: "Proyectos actualmemte terminados sacados de FrontendMentor, con ellos refuerzo y expando mis conocimientos tanto de CSS como JavaScript, puedes también buscar mi perfil para ver mi progreso a través de estos.",
+    desc: "Proyectos sacados de FrontendMentor, con ellos refuerzo y expando mis conocimientos tanto de CSS como JavaScript, puedes también buscar mi perfil para ver mi progreso a través de estos.",
     imagen1: "Recursos/frontendmentor/frontendmentor1.png",
     imagen2: "Recursos/frontendmentor/frontendmentor2.png",
     enlace1: "https://dev3r3nze.github.io/FrontendMentor/",
@@ -263,7 +263,7 @@ const Devo = {
 }
 
 const Prototipos = {
-    desc: "Aqui hay un par de prototipos que no llegaron a ser terminados, uno se trata de un roguelike en el que deberás sobrevivir el mayor tiempo posible, y el otro manejas la consola de una estación espacial que debe lanzar su cohete al espacio.",
+    desc: "Prototipos que no llegaron a ser terminados, uno se trata de un roguelike en el que deberás sobrevivir el mayor tiempo posible, y el otro manejas la consola de una estación espacial que debe lanzar su cohete al espacio.",
     imagen1: "Recursos/prototipos/prototipos1.png",
     imagen2: "Recursos/prototipos/prototipos2.png",
     enlace1: "https://dev3r3nze.itch.io/",

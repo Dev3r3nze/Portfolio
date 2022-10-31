@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Recursos/favicon/favicon.ico" type="image/x-icon">
     <script src="code.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
     <title>dev3r3nze's portfolio</title>
 </head>
 <body>
     <div class="header">
-        <div id="headerText">hola :)</div>
+        <div id="headerText"><p>hola :)</p></div>
     </div>
     <div id="menuLateralClosed" onclick="ToggleMenu()">
         <img src="Recursos/iso.png" alt="">
     </div>
     <div id="menuLateralOpened">
-        <div class="optMenuLateral">¿quién soy?</div>
-        <div class="optMenuLateral">¿skills?</div>
-        <div class="optMenuLateral">¿proyectos?</div>
+        <div class="optMenuLateral"><p>¿quién soy?</p></div>
+        <div class="optMenuLateral"><p>¿skills?</p></div>
+        <div class="optMenuLateral"><p>¿proyectos?</p></div>
         <div id="logoCerrarMenuLateral"><img src="Recursos/iso.png" alt="" onclick="ToggleMenu()"></div>
         <div id="redesMenuLateral"> 
             <a href="https://linktr.ee/dev3r3nze" target="_blank"><img src="Recursos/redes/linktree.png" alt=""></a>
@@ -28,28 +31,28 @@
         </div>
     </div>
     <div class="cat" id="quienCat">
-        <div class="titleCat">¿quién soy?</div>
+        <div class="titleCat"><p>¿quién soy?</p></div>
         <div class="contentCat">
             <div id="quienCatImg"><img src="Recursos/iso.png" alt=""></div>
             <div id="descQuien"><p>También puedes llamarme Hugo, soy un chico español de 19 años que lleva ya unos años en creando mis propios proyectos, como webs y videojuegos. Ahora quiero compartir lo que he hecho y lo que haré, no dudes en ver que puedo ofrecerte :)</p></div>
             <div id="btnsQuien">
                 <div class="optQuien"><p>formación</p></div>
                 <div id="optQuienEspecial"><p>ver cv</p></div>
-                <div class="optQuien"><p></p>certificados</div>
+                <div class="optQuien"><p>certificados</p></div>
             </div>
         </div>
     </div>
     <div class="cat" id="skillsCat">
-        <div class="titleCat">¿skills?</div>
+        <div class="titleCat"><p>¿skills?</p></div>
         <div class="skillContent">
             <div class="colNames">
                 <p class="titleSkillsNames">web</p>
                 <div class="skillsNamesBtns">
-                    <button class="skillNameWeb" id="skillSelected" onclick="CambiarWeb(0)">HTML5</button>
-                    <button class="skillNameWeb" onclick="CambiarWeb(1)">CSS</button>
-                    <button class="skillNameWeb" onclick="CambiarWeb(2)">JavaScript</button>
-                    <button class="skillNameWeb" onclick="CambiarWeb(3)">React</button>
-                    <button class="skillNameWeb" onclick="CambiarWeb(4)">MySQL</button>
+                    <button class="skillNameWeb" id="skillSelected" onclick="CambiarWeb(0)"><p>HTML5</p></button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(1)"><p>CSS</p></button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(2)"><p>JavaScript</p></button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(3)"><p>React</p></button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(4)"><p>MySQL</p></button>
                 </div>
             </div>
             <div class="colContent">
@@ -71,10 +74,10 @@
             <div class="colNames">
                 <p class="titleSkillsNames">design</p>
                 <div class="skillsNamesBtns">
-                    <button class="skillNameDesign" id="skillSelected" onclick="CambiarDesign(0)">Adobe XD</button>
-                    <button class="skillNameDesign" onclick="CambiarDesign(1)">Adobe Illustrator</button>
-                    <button class="skillNameDesign" onclick="CambiarDesign(2)">Canva</button>
-                    <button class="skillNameDesign" onclick="CambiarDesign(3)">Wordpress</button>
+                    <button class="skillNameDesign" id="skillSelected" onclick="CambiarDesign(0)"><p>Adobe XD</p></button>
+                    <button class="skillNameDesign" onclick="CambiarDesign(1)"><p>Adobe Illustrator</p></button>
+                    <button class="skillNameDesign" onclick="CambiarDesign(2)"><p>Canva</p></button>
+                    <button class="skillNameDesign" onclick="CambiarDesign(3)"><p>Wordpress</p></button>
                 </div>
             </div>
             <div class="colContent">
@@ -96,9 +99,9 @@
             <div class="colNames">
                 <p class="titleSkillsNames">games</p>
                 <div class="skillsNamesBtns">
-                    <button class="skillNameGames" id="skillSelected" onclick="CambiarGames(0)">Unity</button>
-                    <button class="skillNameGames" onclick="CambiarGames(1)">C#</button>
-                    <button class="skillNameGames" onclick="CambiarGames(2)">Animación 2D</button>
+                    <button class="skillNameGames" id="skillSelected" onclick="CambiarGames(0)"><p>Unity</p></button>
+                    <button class="skillNameGames" onclick="CambiarGames(1)"><p>C#</p></button>
+                    <button class="skillNameGames" onclick="CambiarGames(2)"><p>Animación 2D</p></button>
                 </div>
             </div>
             <div class="colContent">
@@ -119,15 +122,15 @@
     </div>
 
     <div class="cat" id="proyectosCat">
-        <div class="titleCat">proyectos?</div>
+        <div class="titleCat"><p>proyectos?</p></div>
         <p class="titleProyectsRama">webs</p>
         <div class="proyectsRama">
             <div class="contentAllProyects">
                 <div class="barraNames">
-                    <div class="titleProyectoWeb" id="proyectSelected" onclick="CambiarProyectosWeb(0)">BigoSoft</div>
-                    <div class="titleProyectoWeb" onclick="CambiarProyectosWeb(1)">Calculadora</div>
-                    <div class="titleProyectoWeb" onclick="CambiarProyectosWeb(2)">Frontend Mentor</div>
-                    <div class="titleProyectoWeb" onclick="CambiarProyectosWeb(3)">Extras</div>
+                    <div class="titleProyectoWeb" id="proyectSelected" onclick="CambiarProyectosWeb(0)"><p>BigoSoft</p></div>
+                    <div class="titleProyectoWeb" onclick="CambiarProyectosWeb(1)"><p>Calculadora</p></div>
+                    <div class="titleProyectoWeb" onclick="CambiarProyectosWeb(2)"><p>Frontend Mentor</p></div>
+                    <div class="titleProyectoWeb" onclick="CambiarProyectosWeb(3)"><p>Extras</p></div>
                 </div>
                 <div class="contentProyect">
                     <div class="colDesc">
@@ -151,10 +154,10 @@
         <div class="proyectsRama">
             <div class="contentAllProyects">
                 <div class="barraNames">
-                    <div class="titleProyectoDesign" id="proyectSelected" onclick="CambiarProyectosDesign(4)">Logos</div>
-                    <div class="titleProyectoDesign" onclick="CambiarProyectosDesign(5)">Overlays</div>
-                    <div class="titleProyectoDesign" onclick="CambiarProyectosDesign(6)">Webs</div>
-                    <div class="titleProyectoDesign" onclick="CambiarProyectosDesign(7)">Marcas</div>
+                    <div class="titleProyectoDesign" id="proyectSelected" onclick="CambiarProyectosDesign(4)"><p>Logos</p></div>
+                    <div class="titleProyectoDesign" onclick="CambiarProyectosDesign(5)"><p>Overlays</p></div>
+                    <div class="titleProyectoDesign" onclick="CambiarProyectosDesign(6)"><p>Webs</p></div>
+                    <div class="titleProyectoDesign" onclick="CambiarProyectosDesign(7)"><p>Marcas</p></div>
                 </div>
                 <div class="contentProyect">
                     <div class="colDesc">
@@ -177,10 +180,10 @@
         <div class="proyectsRama">
             <div class="contentAllProyects">
                 <div class="barraNames">
-                    <div class="titleProyectoGames" id="proyectSelected" onclick="CambiarProyectosGames(8)">Moonthrower</div>
-                    <div class="titleProyectoGames" onclick="CambiarProyectosGames(9)">Devo</div>
-                    <div class="titleProyectoGames" onclick="CambiarProyectosGames(10)">Prototipos</div>
-                    <div class="titleProyectoGames" onclick="CambiarProyectosGames(11)">JAMs</div>
+                    <div class="titleProyectoGames" id="proyectSelected" onclick="CambiarProyectosGames(8)"><p>Moonthrower</p></div>
+                    <div class="titleProyectoGames" onclick="CambiarProyectosGames(9)"><p>Devo</p></div>
+                    <div class="titleProyectoGames" onclick="CambiarProyectosGames(10)"><p>Prototipos</p></div>
+                    <div class="titleProyectoGames" onclick="CambiarProyectosGames(11)"><p>JAMs</p></div>
                 </div>
                 <div class="contentProyect">
                     <div class="colDesc">

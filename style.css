@@ -11,6 +11,11 @@ body{
     align-items: center;
 }
 
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
 .cat{
     margin-top: 60vh;
     width: 80%;
@@ -50,6 +55,7 @@ body{
     padding: 3vh 0vh 3vh 10%;
     text-align: left;
     font-size: 40px;
+    font-weight: 700;
 }
 
 #menuLateralOpened #logoCerrarMenuLateral img{
@@ -82,6 +88,9 @@ body{
     color: white;
     margin: 10vh;
 }
+#headerText p{
+    font-weight: 700;
+}
 
 
 /*Categoría quien soy*/
@@ -90,6 +99,8 @@ body{
     font-size: 100px;
     color: white;
     margin-bottom: 5vh;
+    font-weight: 700;
+
 }
 
 #quienCat .contentCat{
@@ -120,6 +131,10 @@ body{
     color: #9B9B9B;
     font-size: 25px;
 }
+.optQuien p:hover{
+    cursor: pointer;
+    color: #585858;
+}
 
 #quienCat .contentCat #btnsQuien #optQuienEspecial{
     float: left;
@@ -130,7 +145,9 @@ body{
     font-size: 30px;
     color: white;
 }
-
+#optQuienEspecial p{
+    font-weight: 700;
+}
 
 
 /*Categoría skills*/
@@ -142,6 +159,10 @@ body{
     font-size: 100px;
     color: white;
     margin-bottom: 5vh;
+}
+.titleCat p{
+    font-weight: 700;
+
 }
 .skillContent{
     display: flex;
@@ -161,6 +182,8 @@ body{
     color: white;
     font-size: 70px;
     margin-bottom: 4vh;
+    font-weight: 700;
+
 }
 
 .skillContent .skillsNamesBtns{
@@ -228,11 +251,14 @@ body{
 .titleProyectsRama{
     color: white;
     font-size: 70px;
+    font-weight: 700;
+
 }
 
 .proyectsRama .contentAllProyects{
     display: flex;
     flex-direction: column;
+    height: 50vh;
 }
 
 .proyectsRama .contentAllProyects .barraNames{
@@ -250,6 +276,10 @@ body{
     color: white;
     width: 25%;
     text-align: center;
+}
+.barraNames p{
+    font-weight: 700;
+
 }
 
 .proyectsRama .contentAllProyects .barraNames #proyectSelected, .titleProyectoWeb:hover, .titleProyectoDesign:hover, .titleProyectoGames:hover{
@@ -289,7 +319,7 @@ body{
     font-size: 20px;
     color: white;
     border: 0px;
-   
+    margin-top: 2vh;
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colImages{
