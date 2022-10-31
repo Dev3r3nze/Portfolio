@@ -22,9 +22,9 @@
         <div class="optMenuLateral">¿proyectos?</div>
         <div id="logoCerrarMenuLateral"><img src="Recursos/iso.png" alt="" onclick="ToggleMenu()"></div>
         <div id="redesMenuLateral"> 
-            <img src="Recursos/redes/linktree.png" alt="">
-            <img src="Recursos/redes/discord.png" alt="">
-            <img src="Recursos/redes/twitch.png" alt="">
+            <a href="https://linktr.ee/dev3r3nze" target="_blank"><img src="Recursos/redes/linktree.png" alt=""></a>
+            <a href="https://discord.com/invite/rWkpjjJwpx" target="_blank"><img src="Recursos/redes/discord.png" alt=""></a>
+            <a href="https://www.twitch.tv/dev3r3nze" target="_blank"><img src="Recursos/redes/twitch.png" alt=""></a>
         </div>
     </div>
     <div class="cat" id="quienCat">
@@ -45,76 +45,75 @@
             <div class="colNames">
                 <p class="titleSkillsNames">web</p>
                 <div class="skillsNamesBtns">
-                    <button class="skillName" id="skillSelected">HTML5</button>
-                    <button class="skillName">CSS</button>
-                    <button class="skillName">JavaScript</button>
-                    <button class="skillName">React</button>
-                    <button class="skillName">MySQL</button>
+                    <button class="skillNameWeb" id="skillSelected" onclick="CambiarWeb(0)">HTML5</button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(1)">CSS</button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(2)">JavaScript</button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(3)">React</button>
+                    <button class="skillNameWeb" onclick="CambiarWeb(4)">MySQL</button>
                 </div>
             </div>
             <div class="colContent">
                 <div class="skillResume">
                     <div class="colSkill1">
-                        <img src="Recursos/techs/html-5.png" alt="" id="imageSkill"><br>
-                        <img src="Recursos/Rating.png" alt="" id="imageRating1">
-                        <img src="Recursos/Rating.png" alt="" id="imageRating2">
-                        <img src="Recursos/Rating.png" alt="" id="imageRating3">
+                        <img src="Recursos/techs/html-5.png" alt="" id="imageSkillWeb"><br>
+                        <img src="Recursos/Rating.png" alt="" id="imageRating1Web">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating2Web">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating3Web">
                     </div>
                     <div class="colSkill2">
-                        <p id="htmlSkillDesc" class="skillDesc"> Probablemente, de mis puntos más fuertes. Con más de 2 años de experiencia, tanto para webs, apps o juegos de navegador. </p>
+                        <p id="skillDescWeb" class="skillDesc"> Probablemente, de mis puntos más fuertes. Con más de 2 años de experiencia, tanto para webs, apps o juegos de navegador. </p>
                     </div>
                 </div>
-                <img src="Recursos/htmlSkillContent.png" alt="" id="skillContentImage">
+                <img src="Recursos/htmlSkillContent.png" alt="" id="skillContentImageWeb">
             </div>
         </div>
         <div class="skillContent">
             <div class="colNames">
                 <p class="titleSkillsNames">design</p>
                 <div class="skillsNamesBtns">
-                    <button class="skillName" id="skillSelected">Adobe XD</button>
-                    <button class="skillName">Adobe Illustrator</button>
-                    <button class="skillName">Canva</button>
-                    <button class="skillName">Wordpress</button>
+                    <button class="skillNameDesign" id="skillSelected" onclick="CambiarDesign(0)">Adobe XD</button>
+                    <button class="skillNameDesign" onclick="CambiarDesign(1)">Adobe Illustrator</button>
+                    <button class="skillNameDesign" onclick="CambiarDesign(2)">Canva</button>
+                    <button class="skillNameDesign" onclick="CambiarDesign(3)">Wordpress</button>
                 </div>
             </div>
             <div class="colContent">
                 <div class="skillResume">
                     <div class="colSkill1">
-                        <img src="Recursos/techs/xd.png" alt="" id="imageSkill"><br>
-                        <img src="Recursos/Rating.png" alt="" id="imageRating1">
-                        <img src="Recursos/Rating.png" alt="" id="imageRating2">
-                        <img src="Recursos/Rating.png" alt="" id="imageRating3">
+                        <img src="Recursos/techs/xd.png" alt="" id="imageSkillDesign"><br>
+                        <img src="Recursos/Rating.png" alt="" id="imageRating1Design">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating2Design">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating3Design">
                     </div>
                     <div class="colSkill2">
-                        <p id="xdSkillDesc" class="skillDesc"> Probablemente, de mis puntos más fuertes. Con más de 2 años de experiencia, tanto para webs, apps o juegos de navegador. </p>
+                        <p id="skillDescDesign" class="skillDesc"> Probablemente, de mis puntos más fuertes. Con más de 2 años de experiencia, tanto para webs, apps o juegos de navegador. </p>
                     </div>
                 </div>
-                <img src="Recursos/xdSkillContent.png" alt="" id="skillContentImage">
+                <img src="Recursos/xdSkillContent.png" alt="" id="skillContentImageDesign">
             </div>
         </div>
         <div class="skillContent">
             <div class="colNames">
                 <p class="titleSkillsNames">games</p>
                 <div class="skillsNamesBtns">
-                    <button class="skillName" id="skillSelected">Unity</button>
-                    <button class="skillName">C#</button>
-                    <button class="skillName">Animación 2D</button>
-                    <button class="skillName">Level Design</button>
+                    <button class="skillNameGames" id="skillSelected" onclick="CambiarGames(0)">Unity</button>
+                    <button class="skillNameGames" onclick="CambiarGames(1)">C#</button>
+                    <button class="skillNameGames" onclick="CambiarGames(2)">Animación 2D</button>
                 </div>
             </div>
             <div class="colContent">
                 <div class="skillResume">
                     <div class="colSkill1">
-                        <img src="Recursos/techs/unity.png" alt="" id="imageSkill"><br>
-                        <img src="Recursos/Rating.png" alt="" id="imageRating1">
-                        <img src="Recursos/Rating.png" alt="" id="imageRating2">
-                        <img src="Recursos/Rating.png" alt="" id="imageRating3">
+                        <img src="Recursos/techs/unity.png" alt="" id="imageSkillGames"><br>
+                        <img src="Recursos/Rating.png" alt="" id="imageRating1Games">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating2Games">
+                        <img src="Recursos/Rating.png" alt="" id="imageRating3Games">
                     </div>
                     <div class="colSkill2">
-                        <p id="xdSkillDesc" class="skillDesc"> Lo que mejor conozco y en lo que mejor soy. Con más de 3 años de experiencia y 6 proyectos terminados, se trata de mi sector preferido del desarrollo. </p>
+                        <p id="skillDescGames" class="skillDesc"> Lo que mejor conozco y en lo que mejor soy. Con más de 3 años de experiencia y 6 proyectos terminados, se trata de mi sector preferido del desarrollo. </p>
                     </div>
                 </div>
-                <img src="Recursos/unitySkillContent.png" alt="" id="skillContentImage">
+                <img src="Recursos/unitySkillContent.png" alt="" id="skillContentImageGames">
             </div>
         </div>
     </div>
@@ -189,12 +188,12 @@
                         <button class="probarProyectoBtn">Probar</button>
                     </div>
                     <div class="colImages">
-                        <img src="Recursos/moonthrower/JuegoDestacable_1.PNG" alt="" class="imgProyecto" id="imgProyecto1">
+                        <img src="Recursos/moonthrower/JuegoDestacable_1.png" alt="" class="imgProyecto" id="imgProyecto1">
                         <img src="Recursos/techs/unity.png" alt="" class="techProyecto">
                         <img src="Recursos/techs/c-sharp.png" alt="" class="techProyecto">
                         <img src="Recursos/techs/aseprite.png" alt="" class="techProyecto"> <br>
                         
-                        <img src="Recursos/moonthrower/JuegoDestacable_2.PNG" alt="" class="imgProyecto" id="imgProyecto2">
+                        <img src="Recursos/moonthrower/JuegoDestacable_2.png" alt="" class="imgProyecto" id="imgProyecto2">
                     </div>
                 </div>
             </div>
@@ -203,13 +202,13 @@
     
     <div class="footer">
         <div class="colFooter">
-            <svg xmlns="http://www.w3.org/2000/svg" width="87.142" height="98.932" viewBox="0 0 87.142 98.932">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="87.142" height="98.932" viewBox="0 0 87.142 98.932">
                 <g id="Group_40" data-name="Group 40" transform="translate(1317.071 743.432) rotate(180)">
                   <line id="Line_1" data-name="Line 1" y2="83.543" transform="translate(1273.5 649.5)" fill="none" stroke="#58fcec" stroke-linecap="round" stroke-width="10"/>
                   <line id="Line_2" data-name="Line 2" y1="36.5" x2="36.5" transform="translate(1273.5 699.861)" fill="none" stroke="#58fcec" stroke-linecap="round" stroke-width="10"/>
                   <line id="Line_3" data-name="Line 3" y1="36.5" x2="36.5" transform="translate(1273.5 699.861) rotate(90)" fill="none" stroke="#58fcec" stroke-linecap="round" stroke-width="10"/>
                 </g>
-              </svg>
+              </svg></a>
               
         </div>
         <div class="colFooter">
@@ -217,11 +216,11 @@
         </div>
         <div class="colFooter">
             <div class="redes">
-                <img src="Recursos/redes/linktree.png" alt="" class="redesImg">
-                <img src="Recursos/redes/discord.png" alt="" class="redesImg">
-                <img src="Recursos/redes/itch.io.png" alt="" class="redesImg">
-                <img src="Recursos/redes/twitter.png" alt="" class="redesImg">
-                <img src="Recursos/redes/twitch.png" alt="" class="redesImg">
+                <a href="https://linktr.ee/dev3r3nze" target="_blank"><img src="Recursos/redes/linktree.png" alt="" class="redesImg"></a>
+                <a href="https://discord.com/invite/rWkpjjJwpx" target="_blank"><img src="Recursos/redes/discord.png" alt="" class="redesImg"></a>
+                <a href="https://dev3r3nze.itch.io/" target="_blank"><img src="Recursos/redes/itch.io.png" alt="" class="redesImg"></a>
+                <a href="https://twitter.com/dev3r3nze" target="_blank"><img src="Recursos/redes/twitter.png" alt="" class="redesImg"></a>
+                <a href="https://www.twitch.tv/dev3r3nze" target="_blank"><img src="Recursos/redes/twitch.png" alt="" class="redesImg"></a>
             </div>
         </div>
        

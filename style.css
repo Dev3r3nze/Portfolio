@@ -43,11 +43,11 @@ body{
 }
 
 #menuLateralOpened .optMenuLateral{
-    width: 100%;
+    width: 90%;
     background-color: #242424;
     color: white;
     margin: 5vh 0vh 5vh 0vh;
-    padding: 3vh 0vh 3vh 5vh;
+    padding: 3vh 0vh 3vh 10%;
     text-align: left;
     font-size: 40px;
 }
@@ -154,7 +154,7 @@ body{
 }
 
 .skillContent .colNames{
-    width: 60%;
+    width: 70%;
 }
 
 .skillContent .colNames .titleSkillsNames{
@@ -168,7 +168,7 @@ body{
     flex-direction: column;
 }
 
-.skillContent .skillsNamesBtns .skillName{
+.skillContent .skillsNamesBtns .skillNameDesign, .skillNameWeb ,.skillNameGames{
     background: transparent;
     border: solid 0.5px;
     border-color: #48488B;
@@ -190,12 +190,13 @@ body{
     flex-direction: row;
     color: white;
     margin-bottom: 2vh;
-    width: 76%;
+    width: 85%;
     padding-top: 2vh;
 }
 
 .skillContent .colContent .skillResume .skillDesc{
     margin-left: 2vh;
+    text-align: justify;
 }
 
 .skillContent .colContent .skillResume .colSkill1{
@@ -206,7 +207,7 @@ body{
     font-size: 16px;
 }
 
-.skillContent .colContent .skillResume #imageSkill{
+.skillContent .colContent .skillResume #imageSkillWeb,#imageSkillDesign,#imageSkillGames{
     width: 13vh
 }
 
@@ -326,16 +327,21 @@ body{
 }
 
 
-#quienCat .contentCat #btnsQuien #optQuienEspecial:hover, .skillContent .colNames .skillName:hover, .titleProyecto:hover, .proyectsRama .contentAllProyects .contentProyect .colDesc button:hover{
+#quienCat .contentCat #btnsQuien #optQuienEspecial:hover, .skillContent .colNames .skillNameDesign:hover,.skillNameWeb:hover, .skillNameGames:hover, .titleProyecto:hover, .proyectsRama .contentAllProyects .contentProyect .colDesc button:hover{
     background-color: #2d2d57;
     cursor: pointer;
 }
 
-#menuLateralClosed:hover, #logoCerrarMenuLateral img:hover{
+ #redesMenuLateral img:hover, svg, .redes img:hover{
     cursor: pointer;
 }
 
 #menuLateralOpened .optMenuLateral:hover{
     background-color: #111111;
     cursor: pointer;
+}
+
+#logoCerrarMenuLateral img:hover, #menuLateralClosed img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
