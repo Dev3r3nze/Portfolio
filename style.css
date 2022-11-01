@@ -144,6 +144,7 @@ p{
     border-radius: 20px;
     font-size: 30px;
     color: white;
+
 }
 #optQuienEspecial p{
     font-weight: 700;
@@ -360,6 +361,9 @@ p{
 #quienCat .contentCat #btnsQuien #optQuienEspecial:hover, .skillContent .colNames .skillNameDesign:hover,.skillNameWeb:hover, .skillNameGames:hover, .titleProyecto:hover, .proyectsRama .contentAllProyects .contentProyect .colDesc button:hover{
     background-color: #2d2d57;
     cursor: pointer;
+}
+#optQuienEspecial:hover{
+    color: #a2a2a2;
 }
 
  #redesMenuLateral img:hover, svg, .redes img:hover, .titleProyectoWeb:hover,.titleProyectoDesign:hover,.titleProyectoGames:hover{
