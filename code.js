@@ -184,7 +184,7 @@ const BigoSoft = {
     desc: "Proyecto del primer año del grado de Desarrollo de Aplicaciones Web, con mayor enfoque en el diseño que en la funcionalidad, se trata de una página para una empresa ficticia con diversas categorías.",
     imagen1: "Recursos/bigosoft/bigosoft1.png",
     imagen2: "Recursos/bigosoft/bigosoft2.png",
-    enlace1: "BigoSoft/index.html",
+    enlace1: "https://dev3r3nze.github.io/bigosoft/",
     enlace1Text: "Probar",
     techs: 5
 }
@@ -193,7 +193,7 @@ const Calculadora = {
     desc: "Proyecto que realizé para aprender a usar los contenedores flex de CSS principalmente, y reforzar mis conocimientos. Se trata de una calculadora capaz de realizar operaciones matemáticas simples.",
     imagen1: "Recursos/calculadora/calculadora1.png",
     imagen2: "Recursos/calculadora/calculadora2.png",
-    enlace1: "Calculadora/index.html",
+    enlace1: "https://dev3r3nze.github.io/calculadora/",
     enlace1Text: "Probar",
     techs: 4
 }
