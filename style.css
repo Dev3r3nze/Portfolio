@@ -368,6 +368,8 @@ p{
 
  #redesMenuLateral img:hover, svg, .redes img:hover, .titleProyectoWeb:hover,.titleProyectoDesign:hover,.titleProyectoGames:hover{
     cursor: pointer;
+    transform: scale(1.05);
+
 }
 
 #menuLateralOpened .optMenuLateral:hover{
