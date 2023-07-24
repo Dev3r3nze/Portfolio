@@ -67,7 +67,7 @@ const ratingWeb = []
 ratingWeb[0] = 3;
 ratingWeb[1] = 2;
 ratingWeb[2] = 3;
-ratingWeb[3] = 1;
+ratingWeb[3] = 2;
 ratingWeb[4] = 1;
 
 const ratingDesign = []
@@ -189,13 +189,13 @@ const BigoSoft = {
     techs: 5
 }
 
-const Calculadora = {
-    desc: "Proyecto que realizé para aprender a usar los contenedores flex de CSS principalmente, y reforzar mis conocimientos. Se trata de una calculadora capaz de realizar operaciones matemáticas simples.",
-    imagen1: "Recursos/calculadora/calculadora1.png",
-    imagen2: "Recursos/calculadora/calculadora2.png",
-    enlace1: "https://dev3r3nze.github.io/calculadora/",
-    enlace1Text: "Probar",
-    techs: 4
+const GrowPro = {
+    desc: "Webs realizadas durante las prácticas del Grado superior en la empresa GrowPro, donde aprendí más sobre react y sobre el desarrollo web en general, se trata de una web de una empresa de viajes.",
+    imagen1: "Recursos/GrowPro/Cap1.png",
+    imagen2: "Recursos/GrowPro/Cap2.png",
+    enlace1: "https://github.com/Dev3r3nze/Growpro/",
+    enlace1Text: "Ver",
+    techs: 3
 }
 
 const FrontendMentor = {
@@ -280,7 +280,7 @@ const Jams = {
     techs: 3
 }
 
-proyectos.push(BigoSoft,Calculadora, FrontendMentor, Extras,Logos,Overlays,Webs,Marcas, Moonthrower, Devo, Prototipos, Jams)
+proyectos.push(GrowPro,BigoSoft, FrontendMentor, Extras,Logos,Overlays,Webs,Marcas, Moonthrower, Devo, Prototipos, Jams)
 
 function CambiarProyectosWeb(num){
     let numTechs = proyectos[num].techs
@@ -442,3 +442,5 @@ function CambiarProyectosGames(num){
     document.getElementsByClassName("titleProyectoGames")[num-8].id = "proyectSelected"
 
 }
+
+addEventListener("load", function(){CambiarProyectosWeb(0)})

@@ -34,7 +34,7 @@ a{
     display: none;
     text-align: center;
     left: 0px;
-
+    z-index: 1;
 }
 #menuLateralClosed{
     width: 5%;
@@ -249,7 +249,7 @@ a{
 }
 
 .proyectsRama{
-    width: 80%;
+    width: 100%;
     box-shadow: 0px 0px 6px rgb(0 0 0 / 16%);
     border-radius: 20px;
     margin: auto;
@@ -267,7 +267,6 @@ a{
 .proyectsRama .contentAllProyects{
     display: flex;
     flex-direction: column;
-    height: 50vh;
 }
 
 .proyectsRama .contentAllProyects .barraNames{
@@ -304,22 +303,22 @@ a{
     align-items: flex-start;
     justify-content: space-between;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colDesc{
-    width: 30%;
+    width: 40%;
     display: flex;
-    height: 30vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 3vh;
+    margin: 3vh 0;
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colDesc p{
     color: white;
     font-size: 1.5vh;
-    width: 50%;
+    width: 90%;
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colDesc button{
@@ -333,8 +332,11 @@ a{
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colImages{
-    width: 70%;
+    width: 60%;
     padding-top: 3vh;
+}
+.colImages img{
+    width: 30%;
 }
 
 .proyectsRama .contentAllProyects .contentProyect .colImages #imgProyecto2Web, #imgProyecto2Design, #imgProyecto2Games{
@@ -343,7 +345,7 @@ a{
 
 .proyectsRama .contentAllProyects .contentProyect .colImages .techProyecto{
     width: 6vh;
-    translate: 0px -5vh;
+    translate: 0px -4vh;
     margin: 0px;
 }
 
