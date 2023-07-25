@@ -79,7 +79,7 @@ ratingDesign[3] = 2;
 const ratingGames = []
 ratingGames[0] = 3;
 ratingGames[1] = 2;
-ratingGames[2] = 1;
+ratingGames[2] = 2;
 
 
 function CambiarWeb(num){
