@@ -22,8 +22,8 @@ descDesign[2] = "Llevo usando esta herramienta durante más de 2 años, para la 
 descDesign[3] = "Wordpress fue lo que me introdujo en el desarrollo y diseño web hace más de 3 años, he creado varios proyectos personales y conozco bien la herramienta."
 
 const descGames = []
-descGames[0] = "Lo que mejor conozco y en lo que mejor soy. Con más de 3 años de experiencia y 6 proyectos terminados, se trata de mi area preferida del desarrollo."
-descGames[1] = "En C# cuento con más de 3 años de experiencia al igual que unity ya que es el lenguaje que este usa, a lo largo de los años he creado 6 pryectos completos."
+descGames[0] = "Lo que mejor conozco y en lo que mejor soy. Con más de 3 años de experiencia y +10 proyectos terminados, se trata de mi area preferida del desarrollo."
+descGames[1] = "Cuento con más de 3 años de experiencia al igual que unity ya que es el lenguaje que este usa, a lo largo de los años he creado 6 pryectos completos."
 descGames[2] = "Siempre me ha gustado crear mis propios sprites y animaciones aunque no sea mi punto fuerte, soy capaz de conseguir un buen resultado con esfuerzo."
 
 const rutasWeb = []
@@ -42,7 +42,7 @@ rutasDesign[3] = "Recursos/wordpressSkillContent.png"
 const rutasGames = []
 rutasGames[0] = "Recursos/unitySkillContent.png"
 rutasGames[1] = "Recursos/c-sharpSkillContent.png"
-rutasGames[2] = "Recursos/animationSkillContent.png"
+rutasGames[2] = "Recursos/Demo01.png"
 rutasGames[3] = "Recursos/levelDesignSkillContent.png"
 
 const iconWeb = []
@@ -50,7 +50,6 @@ iconWeb[0] = "Recursos/techs/html-5.png"
 iconWeb[1] = "Recursos/techs/css-3.png"
 iconWeb[2] = "Recursos/techs/js.png"
 iconWeb[3] = "Recursos/techs/logo-react-icon.png"
-iconWeb[4] = "Recursos/techs/sql-server.png"
 
 const iconDesign = []
 iconDesign[0] = "Recursos/techs/xd.png"
@@ -76,37 +75,12 @@ ratingDesign[1] = 2;
 ratingDesign[2] = 3;
 ratingDesign[3] = 2;
 
-const ratingGames = []
-ratingGames[0] = 3;
-ratingGames[1] = 2;
-ratingGames[2] = 2;
-
-
 function CambiarWeb(num){
     
     document.getElementById("imageSkillWeb").src = iconWeb[num]
     document.getElementById("skillContentImageWeb").src = rutasWeb[num]
     document.getElementById("skillDescWeb").innerHTML = descWeb[num]
-    switch (ratingWeb[num]){
-        case 1:
-            document.getElementById("imageRating1Web").style.display = "initial"
-            document.getElementById("imageRating2Web").style.display = "none"
-            document.getElementById("imageRating3Web").style.display = "none"
-           
-            break
-        case 2:
-            document.getElementById("imageRating1Web").style.display = "initial"
-            document.getElementById("imageRating2Web").style.display = "initial"
-            document.getElementById("imageRating3Web").style.display = "none"
-            
-
-            break
-        case 3:
-            document.getElementById("imageRating1Web").style.display = "initial"
-            document.getElementById("imageRating2Web").style.display = "initial"
-            document.getElementById("imageRating3Web").style.display = "initial"
-            break
-    }
+    
     for(var i = 0; i < document.getElementsByClassName("skillNameWeb").length; i++){
         document.getElementsByClassName("skillNameWeb")[i].id = null
         
@@ -119,26 +93,7 @@ function CambiarDesign(num){
     document.getElementById("imageSkillDesign").src = iconDesign[num]
     document.getElementById("skillContentImageDesign").src = rutasDesign[num]
     document.getElementById("skillDescDesign").innerHTML = descDesign[num]
-    switch (ratingDesign[num]){
-        case 1:
-            document.getElementById("imageRating1Design").style.display = "initial"
-            document.getElementById("imageRating2Design").style.display = "none"
-            document.getElementById("imageRating3Design").style.display = "none"
-           
-            break
-        case 2:
-            document.getElementById("imageRating1Design").style.display = "initial"
-            document.getElementById("imageRating2Design").style.display = "initial"
-            document.getElementById("imageRating3Design").style.display = "none"
-            
-
-            break
-        case 3:
-            document.getElementById("imageRating1Design").style.display = "initial"
-            document.getElementById("imageRating2Design").style.display = "initial"
-            document.getElementById("imageRating3Design").style.display = "initial"
-            break
-    }
+    
     for(var i = 0; i < document.getElementsByClassName("skillNameDesign").length; i++){
         document.getElementsByClassName("skillNameDesign")[i].id = null
         
@@ -151,26 +106,7 @@ function CambiarGames(num){
     document.getElementById("imageSkillGames").src = iconGames[num]
     document.getElementById("skillContentImageGames").src = rutasGames[num]
     document.getElementById("skillDescGames").innerHTML = descGames[num]
-    switch (ratingGames[num]){
-        case 1:
-            document.getElementById("imageRating1Games").style.display = "initial"
-            document.getElementById("imageRating2Games").style.display = "none"
-            document.getElementById("imageRating3Games").style.display = "none"
-           
-            break
-        case 2:
-            document.getElementById("imageRating1Games").style.display = "initial"
-            document.getElementById("imageRating2Games").style.display = "initial"
-            document.getElementById("imageRating3Games").style.display = "none"
-            
-
-            break
-        case 3:
-            document.getElementById("imageRating1Games").style.display = "initial"
-            document.getElementById("imageRating2Games").style.display = "initial"
-            document.getElementById("imageRating3Games").style.display = "initial"
-            break
-    }
+    
     for(var i = 0; i < document.getElementsByClassName("skillNameGames").length; i++){
         document.getElementsByClassName("skillNameGames")[i].id = null
         
@@ -185,7 +121,7 @@ const BigoSoft = {
     imagen1: "Recursos/bigosoft/bigosoft1.png",
     imagen2: "Recursos/bigosoft/bigosoft2.png",
     enlace1: "https://dev3r3nze.github.io/bigosoft/",
-    enlace1Text: "Probar",
+    enlace1Text: "Ver",
     techs: 5
 }
 
@@ -203,7 +139,7 @@ const FrontendMentor = {
     imagen1: "Recursos/frontendmentor/frontendmentor1.png",
     imagen2: "Recursos/frontendmentor/frontendmentor2.png",
     enlace1: "https://dev3r3nze.github.io/FrontendMentor/",
-    enlace1Text: "Probar",
+    enlace1Text: "Ver",
     techs: 3
 }
 
@@ -212,7 +148,7 @@ const Extras = {
     imagen1: "Recursos/extras/extras1.png",
     imagen2: "Recursos/extras/extras2.png",
     enlace1: "https://github.com/Dev3r3nze",
-    enlace1Text: "Probar",
+    enlace1Text: "Ver",
     techs: 3
 }
 
@@ -245,10 +181,10 @@ const Marcas = {
 }
 
 const Moonthrower = {
-    desc: "Se trata de uno de mis últimos juegos, me centré principalmente en el aspecto visual y me siento satisfecho con el resultdao, el juego consiste en lanzar la Luna fuera de la orbita de la Tierra para llegar lo más lejos posible.",
-    imagen1: "Recursos/moonthrower/moonthrower1.png",
-    imagen2: "Recursos/moonthrower/moonthrower2.png",
-    enlace1: "https://dev3r3nze.itch.io/moon-thrower",
+    desc: "Se trata de uno de mis últimos juegos, me centré principalmente en el aspecto visual y me siento satisfecho con el resultdao, se trata de un juego de JAM. Se trata de un clicker en el que debes minar un cristal para venderlo como pulseras",
+    imagen1: "Recursos/charmminersSl/cap1.png",
+    imagen2: "Recursos/charmminersSl/cap2.png",
+    enlace1: "https://dev3r3nze.itch.io/charmminerssl",
     enlace1Text: "Jugar",
     techs: 3
 }
@@ -343,7 +279,6 @@ function CambiarProyectosWeb(num){
             break
     }
 
-    document.getElementById("BtnWeb").innerHTML = proyectos[num].enlace1Text;
     document.getElementById("BtnWeb").parentElement.href = proyectos[num].enlace1;
     for(var i = 0; i < document.getElementsByClassName("titleProyectoWeb").length; i++){
         document.getElementsByClassName("titleProyectoWeb")[i].id = null

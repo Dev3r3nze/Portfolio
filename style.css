@@ -291,6 +291,7 @@ a{
     color: white;
     width: 25%;
     text-align: center;
+    padding: 0.5rem;
 }
 .barraNames p{
     font-weight: 700;
@@ -300,8 +301,6 @@ a{
  #proyectSelected, .titleProyectoWeb:hover, .titleProyectoDesign:hover, .titleProyectoGames:hover{
     background-color: #3D3D77;
     border-radius: 20px 20px 0px 0px;
-    height: 5vh;
-    padding-top: 2vh;
 }
 
  .contentProyect{
@@ -340,13 +339,15 @@ a{
 
  .colImages{
     width: 60%;
-    padding-top: 3vh;
+    margin: 3vh 0;
 }
 .colImages img{
-    width: 30%;
+    width: 16rem;
+    height: 9rem;
 }
 .colImages .techProyecto{
     width: 10%;
+    height: auto;
 }
 
 #imgProyecto2Web, #imgProyecto2Design, #imgProyecto2Games{
@@ -405,6 +406,11 @@ a{
 #logoCerrarMenuLateral img:hover, #menuLateralClosed img:hover{
     cursor: pointer;
     transform: scale(1.05);
+}
+
+.imgSkillResume{
+    width: 60%;
+    border-radius: 30px;
 }
 
 
@@ -488,9 +494,6 @@ a{
     }
     .titleProyectoGames,.titleProyectoWeb{
         width: 100%;
-    }
-    #proyectSelected{
-        padding-top: 1vh;
     }
     .contentProyect{
         flex-direction: column;
