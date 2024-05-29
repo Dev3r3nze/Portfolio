@@ -11,9 +11,9 @@ function ToggleMenu(){
 const descWeb = []
 descWeb[0] = "Probablemente, de mis puntos más fuertes. Con más de 2 años de experiencia, tanto para webs, apps o juegos de navegador."
 descWeb[1] = "Con más de 2 años de experiencia es uno de mis puntos más fuertes. Tengo experiencia y conocimientos en tecnologías como Bootstrap y Sass."
-descWeb[2] = "Mi parte favorita del desarrollo web frontend, con más de 1 año de experiencia tanto  como juegos y resolución de problemas."
+descWeb[2] = "Mi parte favorita del desarrollo web frontend, con más de 1 año de experiencia tanto en juegos simples como en la creación de características interesantes."
 descWeb[3] = "Con menos de 1 año de experiencia, conozco las bases y los fudamentos del framework react, se trata de mi formación actual."
-descWeb[4] = "Aunque prefiero el desarollo en el frontend, tengo conocimientos sobre el manejo de bases de datos y consultas sencillas con MySQL."
+descWeb[4] = "Aunque prefiero el desarollo en el frontend, tengo algunas nociones de conocimiento sobre el manejo de bases de datos y consultas sencillas con MySQL."
 
 const descDesign = []
 descDesign[0] = "Cuento ya con mas de 1 año de experiencia con este programa de diseño, lo he usado para prácticamente todos mis proyectos web y controlo todos sus aspectos."
@@ -22,9 +22,9 @@ descDesign[2] = "Llevo usando esta herramienta durante más de 2 años, para la 
 descDesign[3] = "Wordpress fue lo que me introdujo en el desarrollo y diseño web hace más de 3 años, he creado varios proyectos personales y conozco bien la herramienta."
 
 const descGames = []
-descGames[0] = "Lo que mejor conozco y en lo que mejor soy. Con más de 3 años de experiencia y +10 proyectos terminados, se trata de mi area preferida del desarrollo."
-descGames[1] = "Cuento con más de 3 años de experiencia al igual que unity ya que es el lenguaje que este usa, a lo largo de los años he creado 6 pryectos completos."
-descGames[2] = "Siempre me ha gustado crear mis propios sprites y animaciones aunque no sea mi punto fuerte, soy capaz de conseguir un buen resultado con esfuerzo."
+descGames[0] = "Lo que mejor conozco y lo que mejor se me da. Con más de 3 años de experiencia y +10 proyectos simples terminados, se trata de mi area preferida del desarrollo."
+descGames[1] = "Cuento con más de 3 años de experiencia al igual que con Unity ya que es el lenguaje que este usa, a lo largo de los años he creado varios pryectos simples completos."
+descGames[2] = "Siempre me ha gustado crear mis propios sprites y animaciones aunque no sea mi punto fuerte, soy capaz de conseguir un buen resultado y me gusta seguir aprendiendo sobre cómo mejorar."
 
 const rutasWeb = []
 rutasWeb[0] = "Recursos/htmlSkillContent.png"
