@@ -1,7 +1,200 @@
-img{
+/* img{
     width: 50px;
 }
 img:hover{
     transform: scale(1.2);
     transition: all 0.2s;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ p{
+    font-family: 'Roboto', sans-serif;
+ }
+ :root{
+    --black: #090A14;
+    --darker-blue: #10141F;
+    --dark-blue: #253A5E;
+    --blue: #3C5E8B;
+    --light-blue: #4F8FBA;
+    --lighter-blue: #73BED3;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-blue) var(--black);
+ }
+ 
+
+ .bg-darker-blue{
+    background-color: var(--darker-blue);
+ }
+ .bg-light-blue{
+    background-color: var(--light-blue);
+ }
+ .bg-darker-color{
+    background-color: var(--black) !important;
+ }
+
+ .text-blue{
+    color: var(--blue);
+ }
+ .text-light-blue{
+    color: var(--light-blue);
+ }
+ .text-lighter-blue{
+    color: var(--lighter-blue);
+ }
+ .fw-black{
+    font-weight: 800;
+ }
+ .selected-nav{
+    border-bottom: solid 1px var(--lighter-blue);
+ }
+ #nav-var{
+    transition: all 0.4s;
+    opacity: 0.9;
+ }
+ #nav-var p{
+    opacity: 1;
+ }
+#nav-var p:hover{
+    cursor: pointer;
+    color: var(--light-blue);
+}
+.dev-img{
+    width: 20rem;
+}
+.fs-big{
+    font-size: 66px;
+}
+.fs-semi-big{
+    font-size: 46px;
+}
+.shadowc{
+    box-shadow: 5px 5px var(--dark-blue);
+}
+.shadowc:hover{
+    cursor: pointer;
+}
+.cta-btn:hover{
+    transform: scale(1.1);
+}
+.cta-btn{
+    transition: all 0.3s;
+}
+.contact-btn{
+    width: 25% !important;
+}
+.sub-title:hover{
+    color: var(--light-blue);
+    cursor: pointer;
+}
+
+.separator{
+    background-image: url("Recursos/v2/bannerBg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.img-div,.project-img{
+    height: 12rem;
+}
+.tech-img{
+    height: 5rem;
+}
+.red-img{
+    height: 3rem;
+}
+.img-1{
+    transform: translate(0rem, 2rem);
+}
+.img-2{
+    transform: translate(3rem, -2rem);
+}
+
+#img-div-ini-1{
+    background: url("/Recursos/v2/iniImg1.png") no-repeat center center;
+    background-size: cover;
+}
+#img-div-ini-2{
+    background: url("/Recursos/v2/iniImg2.png") no-repeat center center;
+    background-size: cover;
+}
+#img-div-exp-1{
+    background: url("/Recursos/v2/imgExp1.png") no-repeat center center;
+    background-size: cover;
+}
+#img-div-exp-2{
+    background: url("/Recursos/v2/imgExp2.png") no-repeat center center;
+    background-size: cover;
+}
+
+#pro-img-1{
+    background: url("/Recursos/v2/pro-img-1.gif") no-repeat center center;
+    background-size: cover;
+}
+#pro-img-2{
+    background: url("/Recursos/v2/pro-img-2.gif") no-repeat center center;
+    background-size: cover;
+}
+#pro-img-3{
+    background: url("/Recursos/v2/pro-img-3.gif") no-repeat center center;
+    background-size: cover;
+}
+#pro-img-4{
+    background: url("/Recursos/v2/pro-img-4.gif") no-repeat center center;
+    background-size: cover;
+}
+#pro-img-5{
+    background: url("/Recursos/v2/pro-img-5.jpg") no-repeat center center;
+    background-size: cover;
+}
+#pro-img-6{
+    background: url("/Recursos/v2/pro-img-6.png") no-repeat center center;
+    background-size: cover;
+}
+#pro-img-7{
+    background: url("/Recursos/v2/imgExp1.png") no-repeat center center;
+    background-size: cover;
+}
+#pro-img-8{
+    background: url("/Recursos/v2/pro-img-8.png") no-repeat center center;
+    background-size: cover;
+}
+
+.in-dev:hover{
+    cursor: default;
+}
+
+.techs-div{
+    width: 60%;
+}
+
+@media (max-width: 992px) {
+    .img-1{
+        transform: translate(0rem, 0rem);
+    }
+    .img-2{
+        transform: translate(0rem, -0rem);
+    }
+    .fs-big{
+        font-size: 46px;
+    }
+    .fs-semi-big{
+        font-size: 26px;
+    }
+    .techs-div{
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+    .contact-btn{
+        width: 50% !important;
+    }
+    footer{
+        height: 50vh;
+    }
 }
