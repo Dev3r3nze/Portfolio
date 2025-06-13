@@ -120,11 +120,22 @@
   {
     "nombre": "Danzante App",
     "descripcion": "Aplicación web para la matriculación y gestión de alumnos y profesores de danza, con funcionalidades de búsqueda, filtrado y exportación de datos.",
-    "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
     "categoria": "web",
     "enlaces": {
       "sitio": "[Uso privado]"
     },
     "imagen": "img/danzante_app.png"
+  },
+  {
+    "nombre": "Cozy Garden",
+    "descripcion": "Minijuego estilo celular automata donde puedes ver crecer tu jardín y disfrutar de un entorno relajante. Con reloj y una playlist de música integrada.",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "categoria": "web",
+    "enlaces": {
+      "sitio": "https://dev3r3nze.github.io/cozy-garden/"
+    },
+    "imagen": "img/cozy_garden.png"
   }
+
 ]
