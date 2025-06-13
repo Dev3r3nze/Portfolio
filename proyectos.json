@@ -1,0 +1,130 @@
+[
+  {
+    "nombre": "Iudex Inquisitor",
+    "descripcion": "Aventura gráfica de un futuro distópico. ¿Qué camino eligirás? Juego de decisiones presentado en LevelUpGameJam24.",
+    "tecnologias": ["Unity", "C#"],
+    "categoria": "jam",
+    "enlaces": {
+      "codigo": "https://github.com/Davidal-241/LevelUpGameJam24",
+      "demo": "https://nanakii-chan.itch.io/iudex-inquisitor"
+    },
+    "imagen": "img/iudex.png"
+  },
+  {
+    "nombre": "From Hell",
+    "descripcion": "Juego de plataformas centrado en la jugabilidad y los speedrunners. Desarrollado en solitario en menos de 72h.",
+    "tecnologias": ["Unity", "C#", "Aseprite"],
+    "categoria": "jam",
+    "enlaces": {
+      "demo": "https://dev3r3nze.itch.io/from-hell"
+    },
+    "imagen": "img/from_hell.jpg"
+  },
+  {
+    "nombre": "Charm Miners",
+    "descripcion": "Clicker enfocado en experiencia de usuario, desarrollado en solitario para una JAM en menos de 72h.",
+    "tecnologias": ["Unity", "C#", "Aseprite"],
+    "categoria": "jam",
+    "enlaces": {
+      "demo": "https://dev3r3nze.itch.io/charmminerssl"
+    },
+    "imagen": "img/charm_miners.png"
+  },
+  {
+    "nombre": "Kara Van Killer",
+    "descripcion": "Juego de reflejos con scroll lateral y enfoque en el arte y el game feel. Hecho en 72h en solitario para una JAM.",
+    "tecnologias": ["Unity", "C#", "Aseprite"],
+    "rol": ["Diseño", "Arte", "Programación"],
+    "categoria": "jam",
+    "enlaces": {
+      "demo": "https://dev3r3nze.itch.io/karavan-killer"
+    },
+    "imagen": "img/kara_icon.gif"
+  },
+  {
+    "nombre": "La Maldición del Aprendiz",
+    "descripcion": "Juego de acción roguelike con ambientación medieval. Todo el desarrollo fue realizado por mí.",
+    "tecnologias": ["Unity", "C#", "Aseprite"],
+    "categoria": "dev",
+    "enlaces": {
+      "demo": "https://dev3r3nze.itch.io/la-maldicin-del-aprendiz"
+    },
+    "imagen": "img/aprendiz_gif.gif"
+  },
+  {
+    "nombre": "DEVO",
+    "descripcion": "Clicker de 30 minutos sobre una criptomoneda ficticia, con mejoras y una interfaz simple y directa.",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "categoria": "dev",
+    "enlaces": {
+      "demo": "https://dev3r3nze.itch.io/devo-clicker-game"
+    },
+    "imagen": "img/devo_icon.png"
+  },
+  {
+    "nombre": "Erudito Chat Bot",
+    "descripcion": "Chat bot educativo con IA local, personalidad de erudito y gamificación para mejorar el aprendizaje.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
+    "categoria": "web",
+    "enlaces": {
+      "codigo": "https://github.com/Dev3r3nze/EruditoChatBot"
+    },
+    "imagen": "img/erudito_concept.jpg"
+  },
+  {
+    "nombre": "MiniTaskList",
+    "descripcion": "Aplicación web de productividad con pomodoro, Spotify integrado, recordatorios y diseño centrado en la experiencia de usuario.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
+    "categoria": "web",
+    "enlaces": {
+      "demo": "https://dev3r3nze.github.io/MiniTaskList/",
+      "codigo": "https://github.com/Dev3r3nze/MiniTaskList"
+    },
+    "imagen": "img/minitask_screenshot.png"
+  },
+  
+  
+  {
+    "nombre": "Grow Pro",
+    "descripcion": "Landing pages desarrolladas durante mis prácticas en Grow Pro, enfocadas en conversión y SEO.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
+    "categoria": "web",
+    "enlaces": {
+      "sitio": "https://growproexperience.com/home/"
+    },
+    "imagen": "img/growpro_1.png"
+  }
+  ,
+  {
+    "nombre": "AEDA App",
+    "descripcion": "Aplicación personalizada para AEDA, encargada de la gestión y matriculación de alumnos en los examenes de Danza, asignación de horarios y exportación de datos.",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "categoria": "web",
+    "enlaces": {
+      "sitio": "[Uso privado]"
+    },
+    "imagen": "img/aeda_app.png"
+  },
+  {
+    "nombre": "Albaranes App",
+    "descripcion": "Aplicación web de gestión de albaranes, con funcionalidades de búsqueda, filtrado y exportación de datos para la empresa Lacados LookMobel.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
+    "categoria": "web",
+    "enlaces": {
+      "sitio": "[Uso privado]"
+    },
+    "imagen": "img/lacados_app.png"
+  },
+  
+  
+  {
+    "nombre": "Danzante App",
+    "descripcion": "Aplicación web para la matriculación y gestión de alumnos y profesores de danza, con funcionalidades de búsqueda, filtrado y exportación de datos.",
+    "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
+    "categoria": "web",
+    "enlaces": {
+      "sitio": "[Uso privado]"
+    },
+    "imagen": "img/danzante_app.png"
+  }
+]
