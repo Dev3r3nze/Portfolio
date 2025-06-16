@@ -196,6 +196,7 @@ function renderizarProyectos(proyectos, filtro = 'all') {
             <p class="description">${p.descripcion}</p>
             <p class="tech"><strong>Tecnologías:</strong> ${p.tecnologias}</p>
             <div class="links">
+            ${Object.entries(p.enlaces).length === 0 ? '<span>Sitio privado</span>' : ''}
             ${Object.entries(p.enlaces).map(([nombre, url]) => `<a href="${url}" target="_blank">${nombre.charAt(0).toUpperCase() + nombre.slice(1)}</a>`).join('')}
             </div>
         </div>

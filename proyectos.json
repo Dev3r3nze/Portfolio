@@ -21,6 +21,16 @@
     "imagen": "img/from_hell.jpg"
   },
   {
+    "nombre": "La Maldición del Aprendiz",
+    "descripcion": "Juego de acción roguelike con ambientación medieval. Todo el desarrollo fue realizado por mí.",
+    "tecnologias": ["Unity", "C#", "Aseprite"],
+    "categoria": "dev",
+    "enlaces": {
+      "demo": "https://dev3r3nze.itch.io/la-maldicin-del-aprendiz"
+    },
+    "imagen": "img/aprendiz_gif.gif"
+  },
+  {
     "nombre": "Charm Miners",
     "descripcion": "Clicker enfocado en experiencia de usuario, desarrollado en solitario para una JAM en menos de 72h.",
     "tecnologias": ["Unity", "C#", "Aseprite"],
@@ -41,16 +51,7 @@
     },
     "imagen": "img/kara_icon.gif"
   },
-  {
-    "nombre": "La Maldición del Aprendiz",
-    "descripcion": "Juego de acción roguelike con ambientación medieval. Todo el desarrollo fue realizado por mí.",
-    "tecnologias": ["Unity", "C#", "Aseprite"],
-    "categoria": "dev",
-    "enlaces": {
-      "demo": "https://dev3r3nze.itch.io/la-maldicin-del-aprendiz"
-    },
-    "imagen": "img/aprendiz_gif.gif"
-  },
+  
   {
     "nombre": "DEVO",
     "descripcion": "Clicker de 30 minutos sobre una criptomoneda ficticia, con mejoras y una interfaz simple y directa.",
@@ -65,7 +66,7 @@
     "nombre": "Erudito Chat Bot",
     "descripcion": "Chat bot educativo con IA local, personalidad de erudito y gamificación para mejorar el aprendizaje.",
     "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
-    "categoria": "web",
+    "categoria": "web app",
     "enlaces": {
       "codigo": "https://github.com/Dev3r3nze/EruditoChatBot"
     },
@@ -75,7 +76,7 @@
     "nombre": "MiniTaskList",
     "descripcion": "Aplicación web de productividad con pomodoro, Spotify integrado, recordatorios y diseño centrado en la experiencia de usuario.",
     "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
-    "categoria": "web",
+    "categoria": "web app",
     "enlaces": {
       "demo": "https://dev3r3nze.github.io/MiniTaskList/",
       "codigo": "https://github.com/Dev3r3nze/MiniTaskList"
@@ -99,9 +100,9 @@
     "nombre": "AEDA App",
     "descripcion": "Aplicación personalizada para AEDA, encargada de la gestión y matriculación de alumnos en los examenes de Danza, asignación de horarios y exportación de datos.",
     "tecnologias": ["HTML", "CSS", "JavaScript"],
-    "categoria": "web",
+    "categoria": "web app",
     "enlaces": {
-      "sitio": "[Uso privado]"
+      
     },
     "imagen": "img/aeda_app.png"
   },
@@ -109,21 +110,20 @@
     "nombre": "Albaranes App",
     "descripcion": "Aplicación web de gestión de albaranes, con funcionalidades de búsqueda, filtrado y exportación de datos para la empresa Lacados LookMobel.",
     "tecnologias": ["HTML", "CSS", "JavaScript", "React.js"],
-    "categoria": "web",
+    "categoria": "web app",
     "enlaces": {
-      "sitio": "[Uso privado]"
+      
     },
     "imagen": "img/lacados_app.png"
   },
-  
   
   {
     "nombre": "Danzante App",
     "descripcion": "Aplicación web para la matriculación y gestión de alumnos y profesores de danza, con funcionalidades de búsqueda, filtrado y exportación de datos.",
     "tecnologias": ["HTML", "CSS", "JavaScript"],
-    "categoria": "web",
+    "categoria": "web app",
     "enlaces": {
-      "sitio": "[Uso privado]"
+      
     },
     "imagen": "img/danzante_app.png"
   },
@@ -131,11 +131,31 @@
     "nombre": "Cozy Garden",
     "descripcion": "Minijuego estilo celular automata donde puedes ver crecer tu jardín y disfrutar de un entorno relajante. Con reloj y una playlist de música integrada.",
     "tecnologias": ["HTML", "CSS", "JavaScript"],
-    "categoria": "web",
+    "categoria": "web app",
     "enlaces": {
       "sitio": "https://dev3r3nze.github.io/cozy-garden/"
     },
     "imagen": "img/cozy_garden.png"
+  },
+  {
+    "nombre": "A Rite From The Stars",
+    "descripcion": "Web de información y promoción del juego 'A Rite From The Stars', con un diseño atractivo y funcional. Realizada durante mis prácticas en Flying Beast Labs.",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "categoria": "web",
+    "enlaces": {
+      "sitio": "https://aritefromthestars.com/"
+    },
+    "imagen": "img/aritefromthestars.png"
+  },
+  {
+    "nombre": "Calling to Chtulhu",
+    "descripcion": "Web de información y promoción del juego 'Calling to Chtulhu' aún en desarrollo. Realizada durante mis prácticas en Flying Beast Labs.",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "categoria": "web",
+    "enlaces": {
+      "sitio": "https://callingtocthulhu.com/"
+    },
+    "imagen": "img/calling_to_cthulhu.png"
   }
 
 ]

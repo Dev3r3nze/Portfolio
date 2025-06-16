@@ -59,6 +59,10 @@ a:hover {
   /* encima del hero */
 }
 
+.mt-1 {
+  margin-top: 1rem;
+}
+
 /* Header */
 header {
   min-height: 100vh;
@@ -607,6 +611,7 @@ section.projects {
     justify-content: center;
   }
 }
+
 
 
 
