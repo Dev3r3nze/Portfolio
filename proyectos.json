@@ -156,6 +156,29 @@
       "sitio": "https://callingtocthulhu.com/"
     },
     "imagen": "img/calling_to_cthulhu.png"
+  },
+  {
+    "nombre": "Weydi",
+    "descripcion": "Perfil profesional tanto en tiktok como en instagram, donde creo y comparto contenido sobre programación y diseño.",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "categoria": "marketing",
+    "enlaces": {
+      "TikTok": "https://tiktok.com/weydidesign",
+      "Instagram": "https://instagram.com/weydidesign"
+    },
+    "imagen": "img/weydi.png"
+  },
+  {
+    "nombre": "Mix de proyectos",
+    "descripcion": "Recopilación de algunos de los proyectos realizados durante mis estudios de marketing. Incluye la creación de marcas como análisis de mercado y desarrollo de estrategias.",
+    "tecnologias": ["Adobe Illustrator", "Adobe Photoshop", "Canva"],
+    "categoria": "marketing",
+    "enlaces": {
+      "Plan de medios": "https://www.canva.com/design/DAGh_NlhwzM/Dekl5b7DQoVpknAA1Y6ieQ/edit?utm_content=DAGh_NlhwzM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "Análisis de mercado": "https://www.canva.com/design/DAGh_IYInDA/phdiMubx_XuMehM5miCMzw/edit?utm_content=DAGh_IYInDA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "Creación de marca": "https://www.canva.com/design/DAGqO9eEo2k/9DyHWVZbp-kPcZjYhVadsw/edit?utm_content=DAGqO9eEo2k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    "imagen": "img/PresentationMixs.png"
   }
 
 ]
